@@ -11,6 +11,8 @@ import Portfolio from './components/Portfolio.jsx'
 import Booknow from './components/BookNow.jsx'
 import ContactUs from './components/contactUs.jsx'
 import Footer from './components/Footer.jsx'
+import BootstrapCarousel from './components/BootstrapCarousel.jsx'
+import ThumbnailGallery from './components/Thumbnail.jsx'
 
 function App() {
   return (
@@ -26,8 +28,11 @@ function App() {
         <Separator />
         <Booknow />   
         <ContactUs />    
-        <Footer />
-    </div>
+        <Footer /> 
+        <ThumbnailGallery />       
+</div>
+
+    
   );
 }
 
