@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ThumbnailHeader()
+function ThumbnailHeader(props)
 {
     return(
         <div className="text-center">
             <h2 className="section-heading text-uppercase">              
-              Top 5 foods to increase milk production
+              {props.content}
             </h2>
           </div>
     );

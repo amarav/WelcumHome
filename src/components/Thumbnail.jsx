@@ -7,25 +7,6 @@ function ThumbnailGallery() {
       <section className="page-section bg-light">
         <div className="container-fluid">
             <ThumbnailImage />
-            <div className="row">
-              <div className="col-lg-1">
-                <p>Ad space</p>
-              </div>
-              <div className="col-lg-2 col-sm-6 mb-4">
-                <h4>Tapioca</h4>
-                <a href="#contact" className="d-block mb-4 h-100">
-                  <img
-                    className="img-fluid img-thumbnail"
-                    src={require("../assets/img/portfolio/food.jpg")}
-                    alt=""
-                  />
-                </a>
-                <div className="col-lg-1">
-                  <p>Ad space</p>
-                </div>
-              </div>
-            </div>
-            
           </div>
 
           <h1 className="font-weight-light text-center text-lg-left mt-4 mb-0">
