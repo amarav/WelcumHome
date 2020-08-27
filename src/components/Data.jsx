@@ -107,7 +107,17 @@ const lactatopfoods = [
       id:2,
       name:"Mutton Liver",
       source:"/assets/img/lactationboosters/milk.jpg"
-    }
+    },
+    {
+        id:4,
+        name:"Naatukozhi soup",
+        source:"/assets/img/lactationboosters/milk.jpg"
+      },
+      {
+        id:3,
+        name:"Aatukaal soup",
+        source:"/assets/img/lactationboosters/milk.jpg"
+      },
   ];
 
 
@@ -198,7 +208,7 @@ const lactatopfoods = [
     },
     {
       id:4,
-      name:"Soups",
+      name:"Oregano",
       source:"/assets/img/lactationboosters/milk.jpg"
     }
   ];
@@ -219,20 +229,15 @@ const lactatopfoods = [
       id:3,
       name:"Arugampul juice",
       source:"/assets/img/lactationboosters/milk.jpg"
-    },    
+    },
     {
-        id:4,
-        name:"Naatukozhi soup",
-        source:"/assets/img/lactationboosters/milk.jpg"
-      },
-  ];
-
-  const gudhealthrowtwo = [
-    {
-      id:1,
-      name:"Aatukaal soup",
+      id:4,
+      name:"Tapioca",
       source:"/assets/img/lactationboosters/milk.jpg"
     },
+  ];
+
+  const gudhealthrowtwo = [    
     {
       id:6,
       name:"Dates",
