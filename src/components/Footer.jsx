@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Footer()
 {
@@ -12,6 +13,9 @@ function Footer()
                         <a className="btn btn-dark btn-social mx-2" href="https://www.instagram.com/welcomehomefoodandculture/"><i className="fab fa-instagram-square"></i></a>
                         <a className="btn btn-dark btn-social mx-2" href="https://www.facebook.com/welcomehomefoodandculture/"><i className="fab fa-facebook-f"></i></a>
                         <a className="btn btn-dark btn-social mx-2" href="https://www.youtube.com/welcomehomefoodandculture"><i className="fab fa-youtube"></i></a>
+                        <li><Link to='/home'>Home</Link></li>
+                        <li><Link to='/contact'>Contact</Link></li>
+                        <li><Link to='/Recipies'>Recipies</Link></li>
                     </div>
                     <div className="col-lg-4 text-lg-right">
                         <a className="mr-3" href="#!">Privacy Policy</a>

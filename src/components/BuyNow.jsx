@@ -67,7 +67,7 @@ function BuyNow(){
                                 <li>Herbal bath powder for boy baby</li>                                        
                                 <li>Herbal bath powder for girl baby</li>
                                 <li>Herbal hair oil for mother</li>
-                                <li>Lactation boosters</li>
+                                <li>Herbal Tea</li>
                               </ul>
                           </p>
                         </div>

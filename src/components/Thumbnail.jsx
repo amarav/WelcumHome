@@ -1,5 +1,5 @@
 import React from "react";
-import ThumbnailImage from './ThumbnailImage.jsx'
+import ThumbnailImage from './ThumbnailImage'
 
 function ThumbnailGallery() {
   return (
@@ -8,9 +8,6 @@ function ThumbnailGallery() {
         <div className="container-fluid">
             <ThumbnailImage />
           </div>
-
-            
-
       </section>
     </div>
   );

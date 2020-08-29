@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import Thumbnail from './Thumbnail.jsx'
 
 function Portfolio() {
   return (
@@ -95,22 +97,13 @@ function Portfolio() {
 
             <div className="col-lg-4 col-sm-6 mb-4 mb-lg-0">
               <div className="portfolio-item">
-                <a
-                  className="portfolio-link"
-                  data-toggle="modal"
-                  href="#portfolioModal3"
-                >
-                  <div className="portfolio-hover">
-                    <div className="portfolio-hover-content">
-                      <i className="fas fa-plus fa-3x"></i>
-                    </div>
-                  </div>
+                <Link to='/Thumbnail'>
                   <img
                     className="img-fluid"
                     src={require("../assets/img/portfolio/lactation.jpg")}
                     alt=""
                   />
-                </a>
+                </Link>
                 <div className="portfolio-caption">
                   <div className="portfolio-caption-heading">Lactation</div>
                   <div className="portfolio-caption-subheading text-muted">
