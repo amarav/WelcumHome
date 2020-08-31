@@ -18,6 +18,7 @@ import Dishdetail from './DishdetailComponent'
 import Recipies from './recipies'
 import Contact from './contact';
 import Home from './HomeComponent'
+import About from './AboutComponent'
 import {DISHES} from './dishes'
 import { COMMENTS } from './comments';
 import { PROMOTIONS } from './promotions';
@@ -62,6 +63,12 @@ class Main extends Component
       <Dishdetail dish={this.state.dishes.filter((dish) => dish.id === parseInt(match.params.dishId,10))[0]} 
       />  );
   };
+
+  const AboutWithId = () => {
+    return(
+      <About leaders={this.state.leaders} />
+    );
+  }
   
 
   return (
@@ -79,6 +86,7 @@ class Main extends Component
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.state.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/contact' component={Contact} />
+            <Route exact path='/About' component={AboutWithId} />
             <Redirect to="/home" />
         </Switch>
         <Portfolio />

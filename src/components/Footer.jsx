@@ -15,7 +15,8 @@ function Footer()
                         <a className="btn btn-dark btn-social mx-2" href="https://www.youtube.com/welcomehomefoodandculture"><i className="fab fa-youtube"></i></a>
                         <li><Link to='/home'>Home</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
-                        <li><Link to='/Recipies'>Recipies</Link></li>
+                        <li><Link to='/Recipies'>Recipies</Link></li>                        
+                        <li><Link to='/About'>About us</Link></li>
                     </div>
                     <div className="col-lg-4 text-lg-right">
                         <a className="mr-3" href="#!">Privacy Policy</a>
