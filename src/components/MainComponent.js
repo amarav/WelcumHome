@@ -14,6 +14,7 @@ import BootstrapCarousel from './BootstrapCarousel'
 import LactationThumbnailGallery from './Thumbnail'
 import Menu from './MediaMenu';
 import ThumbnailHeader from './ThumbnailHeader'
+import Dishdetail from './DishdetailComponent'
 import Recipies from './recipies'
 import Contact from './contact';
 import Home from './HomeComponent'
@@ -49,11 +50,19 @@ class Main extends Component
       );
     }
 
+
   const Lactation = () => {
     return(
       <LactationThumbnailGallery />
     );
   }
+
+  const DishWithId = ({match}) => {
+    return(
+      <Dishdetail dish={this.state.dishes.filter((dish) => dish.id === parseInt(match.params.dishId,10))[0]} 
+      />  );
+  };
+  
 
   return (
     <div>  
@@ -68,6 +77,7 @@ class Main extends Component
             <Route path='/home' component={HomePage} />              
             <Route exact path='/Thumbnail' component={Lactation} />
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.state.dishes} />} />
+            <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/contact' component={Contact} />
             <Redirect to="/home" />
         </Switch>
