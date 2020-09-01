@@ -73,7 +73,7 @@ class Main extends Component
 
   return (
     <div>  
-        <Navigation />
+       
         <Header />
         <BuyNow />
         <Separator />
