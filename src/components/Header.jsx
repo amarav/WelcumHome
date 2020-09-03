@@ -82,7 +82,7 @@ class Header extends Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink className="nav-link" to="/menu"> Recipies
+                    <NavLink className="nav-link" to="/Recipies"> Recipies
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -91,10 +91,10 @@ class Header extends Component {
                         Lifestyle
                       </DropdownToggle>
                       <DropdownMenu>
-                        <DropdownItem tag="a" href="/blah" active>
+                        <DropdownItem tag="a" href="/Remedies" active>
                           Home remedies
                         </DropdownItem>
-                        <DropdownItem tag="a" href="/blah" active>
+                        <DropdownItem tag="a" href="/Lactation" active>
                           Lactation
                         </DropdownItem>
                         <DropdownItem tag="a" href="/blah" active>
@@ -113,16 +113,16 @@ class Header extends Component {
                         Buy Now
                       </DropdownToggle>
                       <DropdownMenu>
-                        <DropdownItem tag="a" href="/blah" active>
+                        <DropdownItem tag="a" href="/buynow" active>
                           Post natal kit
                         </DropdownItem>
-                        <DropdownItem tag="a" href="/blah" active>
+                        <DropdownItem tag="a" href="/buynow" active>
                           Baby care kit
                         </DropdownItem>
-                        <DropdownItem tag="a" href="/blah" active>
+                        <DropdownItem tag="a" href="/buynow" active>
                           Herbal Tea
                         </DropdownItem>
-                        <DropdownItem tag="a" href="/blah" active>
+                        <DropdownItem tag="a" href="/buynow" active>
                           Herbal bath powder
                         </DropdownItem>
                       </DropdownMenu>
@@ -135,7 +135,7 @@ class Header extends Component {
                         Siddha
                       </DropdownToggle>
                       <DropdownMenu>
-                        <DropdownItem tag="a" href="/blah" active>
+                        <DropdownItem tag="a" href="/booknow" active>
                           Consultation
                         </DropdownItem>
                       </DropdownMenu>
@@ -148,7 +148,7 @@ class Header extends Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink className="nav-link" to="/contactus"> Contact
+                    <NavLink className="nav-link" to="/contact"> Contact
                       Us
                     </NavLink>
                     
@@ -196,13 +196,7 @@ class Header extends Component {
               </Form>
             </ModalBody>
           </Modal>
-        </React.Fragment>
-        <header className="masthead" id="home">
-          <div className="container">
-            <div className="masthead-subheading">Well,Come Home!</div>
-            <div className="masthead-heading text-uppercase">Welcome Home!</div>
-          </div>
-        </header>
+        </React.Fragment>       
       </div>
     );
   }

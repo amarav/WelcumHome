@@ -10,7 +10,7 @@ import Portfolio from './Portfolio'
 import Booknow from './BookNow'
 import ContactUs from './contactUs'
 import Footer from './Footer'
-import BootstrapCarousel from './BootstrapCarousel'
+import BootstrapCarousel from './Carousel'
 import LactationThumbnailGallery from './Thumbnail'
 import Menu from './MediaMenu';
 import ThumbnailHeader from './ThumbnailHeader'
@@ -19,6 +19,7 @@ import Recipies from './recipies'
 import Contact from './contact';
 import Home from './HomeComponent'
 import About from './AboutComponent'
+import Carousel from './Carousel'
 import {DISHES} from './dishes'
 import { COMMENTS } from './comments';
 import { PROMOTIONS } from './promotions';
@@ -84,36 +85,23 @@ class Main extends Component
   return (
     <div>  
        
-        <Header />
-        <BuyNow />
-        <Separator />
-        <Services />
-        <hr />
-        <Quote />
+        <Header />        
         <Switch>
             <Route path='/home' component={HomePage} />              
-            <Route exact path='/Thumbnail' component={Lactation} />
+            <Route exact path='/Lactation' component={LactationThumbnailGallery} />
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
-            <Route exact path='/contact' component={Contact} />
+            <Route exact path='/Remedies' component={() =>  <ThumbnailHeader content="Home remedies" />} />            
+            <Route exact path='/contact' component={ContactUs} />
             <Route exact path='/About' component={AboutWithId} />
+            <Route path='/buynow' component={BuyNow} />             
+            <Route path='/booknow' component={Booknow} />                     
+            <Route path='/menu' component={Menu} /> 
             <Redirect to="/home" />
-        </Switch>
-        <Portfolio />
-        <Separator />
-        <Booknow />   
-        <ContactUs />    
-        <Footer /> 
-        <LactationThumbnailGallery />
-        <ThumbnailHeader content="Home remedies" />
-        <Menu/> 
-        <ThumbnailHeader content="Recipies" /> 
-        
-        <Recipies dishes={this.props.dishes} />  
+        </Switch>  
+        <ContactUs/>
+        <Footer/>
 </div>
-
-
-    
   );
 
 }
