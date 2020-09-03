@@ -11,6 +11,7 @@ import Booknow from './BookNow'
 import ContactUs from './contactUs'
 import Footer from './Footer'
 import BootstrapCarousel from './Carousel'
+import Lactation from './lactation'
 import LactationThumbnailGallery from './Thumbnail'
 import Menu from './MediaMenu';
 import ThumbnailHeader from './ThumbnailHeader'
@@ -20,10 +21,6 @@ import Contact from './contact';
 import Home from './HomeComponent'
 import About from './AboutComponent'
 import Carousel from './Carousel'
-import {DISHES} from './dishes'
-import { COMMENTS } from './comments';
-import { PROMOTIONS } from './promotions';
-import { LEADERS } from './leaders';
 import { BrowserRouter } from 'react-router-dom';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 import { connect } from 'react-redux';
@@ -33,23 +30,14 @@ const mapStateToProps = state => {
     dishes: state.dishes,
     comments: state.comments,
     promotions: state.promotions,
-    leaders: state.leaders
+    leaders: state.leaders,
+    topfoods: state.topfoods
   }
 }
 
 class Main extends Component
 {
     
-  constructor(props) {
-    super(props);
-    this.state = {
-      dishes: DISHES,
-      comments: COMMENTS,
-      promotions: PROMOTIONS,
-      leaders: LEADERS
-    };
-  }
-
   render()
   {
     const HomePage = () => {
@@ -63,9 +51,9 @@ class Main extends Component
     }
 
 
-  const Lactation = () => {
+  const LactationFoods = () => {
     return(
-      <LactationThumbnailGallery />
+      <Lactation topfoods={this.props.topfoods} />
     );
   }
 
@@ -88,15 +76,14 @@ class Main extends Component
         <Header />        
         <Switch>
             <Route path='/home' component={HomePage} />              
-            <Route exact path='/Lactation' component={LactationThumbnailGallery} />
+            <Route exact path='/Lactation' component={LactationFoods} />
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
-            <Route exact path='/Remedies' component={() =>  <ThumbnailHeader content="Home remedies" />} />            
+            <Route exact path='/Remedies' component={Menu} />            
             <Route exact path='/contact' component={ContactUs} />
             <Route exact path='/About' component={AboutWithId} />
             <Route path='/buynow' component={BuyNow} />             
-            <Route path='/booknow' component={Booknow} />                     
-            <Route path='/menu' component={Menu} /> 
+            <Route path='/booknow' component={Booknow} />     
             <Redirect to="/home" />
         </Switch>  
         <ContactUs/>

@@ -3,6 +3,7 @@ import { Dishes } from './dishes';
 import { Comments } from './comments';
 import { Promotions } from './promotions';
 import { Leaders } from './leaders';
+import { Topfoods } from './lactationData'
 
 export const ConfigureStore = () => {
     const store = createStore(
@@ -10,7 +11,8 @@ export const ConfigureStore = () => {
             dishes: Dishes,
             comments: Comments,
             promotions: Promotions,
-            leaders: Leaders
+            leaders: Leaders,
+            topfoods: Topfoods
         })
     );
 

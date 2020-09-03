@@ -143,7 +143,7 @@ class Header extends Component {
 
                   </NavItem>
                   <NavItem>
-                    <NavLink className="nav-link" to="/aboutus">
+                    <NavLink className="nav-link" to="/About">
                       Blog
                     </NavLink>
                   </NavItem>
