@@ -36,13 +36,16 @@ function lactation(props) {
                 <Breadcrumb>
                     <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                     <BreadcrumbItem active>Lactation</BreadcrumbItem>
-                </Breadcrumb>          
+                </Breadcrumb> 
+
             </div>
-         <section className="page-section bg-light" id="portfolio">
+            <Link to='/LactationDietChart'>Diet Chart</Link>
+
+         <section className="page-section bg-light" >
        
         <div className="container-fluid">
           <div className="text-center">
-            <h2 className="section-heading text-uppercase">Lactation Boosters</h2>
+            <h3 className="section-heading text-uppercase">Lactation Boosters</h3>
             <h3 className="section-subheading text-muted">
               Increase milk secretion during breastfeeding
             </h3>
@@ -81,6 +84,7 @@ function lactation(props) {
             </div>
           </section>
         </div>
+        
     );
 }
 

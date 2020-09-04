@@ -20,6 +20,7 @@ import Recipies from './recipies'
 import Contact from './contact';
 import Home from './HomeComponent'
 import About from './AboutComponent'
+import DietChart from './lactationDietChart'
 import {topfoodsrc,instantmilksrc,mustincsrc,goodfoodsrc,vegfoodsrc,nonvegfoodsrc,seedsrc,fruitsrc} from './lactationData'
 import Carousel from './Carousel'
 import { BrowserRouter } from 'react-router-dom';
@@ -92,7 +93,8 @@ class Main extends Component
         <Header />        
         <Switch>
             <Route path='/home' component={HomePage} />              
-            <Route exact path='/Lactation' component={LactationFoods} />
+            <Route exact path='/Lactation' component={LactationFoods} />                        
+            <Route exact path='/LactationDietChart' component={DietChart} />
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/Remedies' component={Menu} />            
@@ -101,7 +103,7 @@ class Main extends Component
             <Route path='/buynow' component={BuyNow} />             
             <Route path='/booknow' component={Booknow} />     
             <Redirect to="/home" />
-        </Switch>  
+        </Switch> 
         <ContactUs/>
         <Footer/>
 </div>

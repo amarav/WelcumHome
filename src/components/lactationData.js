@@ -91,22 +91,22 @@ export const TOPFOODS = [
     },
     {
       id:5,
-      name:"Badam",
+      name:"Dry ginger",
       source:"/assets/img/lactationboosters/milk.jpg"
     },
     {
       id:6,
-      name:"Apricots",
+      name:"Plenty of water",
       source:"/assets/img/lactationboosters/milk.jpg"
     },
     {
       id:7,
-      name:"Garlic",
+      name:"Milk",
       source:"/assets/img/lactationboosters/milk.jpg"
     },
     {
       id:8,
-      name:"Tapioca",
+      name:"Oregano",
       source:"/assets/img/lactationboosters/milk.jpg"
     }
   ];
@@ -144,7 +144,7 @@ export const TOPFOODS = [
     },
     {
       id:8,
-      name:"Nuts",
+      name:"Dry grapes",
       source:"/assets/img/lactationboosters/nuts.jpg",
     }
   ];
