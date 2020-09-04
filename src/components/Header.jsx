@@ -138,7 +138,14 @@ class Header extends Component {
                         <DropdownItem tag="a" href="/booknow" active>
                           Consultation
                         </DropdownItem>
-                      </DropdownMenu>
+                        <DropdownItem tag="a" href="/booknow" active>
+                          Siddhargal
+                        </DropdownItem>
+                        <DropdownItem tag="a" href="/booknow" active>
+                          Herbs
+                        </DropdownItem>
+                      </DropdownMenu>                  
+                      
                     </UncontrolledDropdown>
 
                   </NavItem>

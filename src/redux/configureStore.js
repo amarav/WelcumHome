@@ -3,7 +3,7 @@ import { Dishes } from './dishes';
 import { Comments } from './comments';
 import { Promotions } from './promotions';
 import { Leaders } from './leaders';
-import { Topfoods } from './lactationData'
+import { Topfoods,Instantfoods,MustIncfoods,Goodfoods,Vegfoods,Nonvegfoods,Seeds,Fruits} from './lactationData'
 
 export const ConfigureStore = () => {
     const store = createStore(
@@ -12,7 +12,16 @@ export const ConfigureStore = () => {
             comments: Comments,
             promotions: Promotions,
             leaders: Leaders,
-            topfoods: Topfoods
+            topfoods: Topfoods,
+            instantfoods: Instantfoods,
+            mustIncfoods : MustIncfoods,
+            goodfoods:Goodfoods,
+            vegfoods:Vegfoods,
+            nonvegfoods:Nonvegfoods,
+            seeds:Seeds,
+            fruits:Fruits
+
+
         })
     );
 

@@ -20,6 +20,7 @@ import Recipies from './recipies'
 import Contact from './contact';
 import Home from './HomeComponent'
 import About from './AboutComponent'
+import {topfoodsrc,instantmilksrc,mustincsrc,goodfoodsrc,vegfoodsrc,nonvegfoodsrc,seedsrc,fruitsrc} from './lactationData'
 import Carousel from './Carousel'
 import { BrowserRouter } from 'react-router-dom';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
@@ -31,7 +32,14 @@ const mapStateToProps = state => {
     comments: state.comments,
     promotions: state.promotions,
     leaders: state.leaders,
-    topfoods: state.topfoods
+    topfoods: state.topfoods,
+    instantfoods:state.instantfoods,
+    mustIncfoods:state.mustIncfoods,
+    goodfoods:state.goodfoods,
+    vegfoods:state.vegfoods,
+    nonvegfoods:state.nonvegfoods,
+    seeds:state.seeds,
+    fruits:state.fruits
   }
 }
 
@@ -53,7 +61,15 @@ class Main extends Component
 
   const LactationFoods = () => {
     return(
-      <Lactation topfoods={this.props.topfoods} />
+      <Lactation topfoods={this.props.topfoods} titleTop="Top foods" sourceTop = {topfoodsrc} 
+        instantfoods = {this.props.instantfoods} titleInstant ="Instant foods" sourceInstant = {instantmilksrc}
+        mustIncfoods = {this.props.mustIncfoods}  titleMust ="Must include foods" sourceMust = {mustincsrc}
+        goodfoods = {this.props.goodfoods} titleGood = "Foods for good health" sourceGood ={goodfoodsrc} 
+        vegfoods = {this.props.vegfoods} titleVeg = "Vegetarian foods" sourceVeg ={vegfoodsrc} 
+        nonvegfoods = {this.props.nonvegfoods} titleNonveg = "Non vegetarian foods" sourceNonveg ={nonvegfoodsrc} 
+        seeds = {this.props.seeds} titleSeeds = "Seeds" sourceSeeds ={seedsrc} 
+        fruits = {this.props.fruits} titleFruits = "Fruits" sourceFruits ={fruitsrc} />
+        
     );
   }
 
