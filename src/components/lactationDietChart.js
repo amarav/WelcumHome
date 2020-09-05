@@ -21,7 +21,15 @@ const DietChart = (props) => {
       <h3 className="section-subheading text-muted">Routine diet throughout breastfeeding
       </h3>
     </div>
-    <div className = "align-items-center justify-content-center">
+    <div className = "col-md-8 offset-md-4">
+    <img
+                    className="img-fluid"
+                    src={require("../assets/img/portfolio/diet.jpg")}
+                    width="350" height="350" alt=""
+                  />
+                  </div>
+    <div className = "col-md-8 offset-md-2">
+      <br/>
        A daily healthy routine during breastfeeding is important to sustain milk flow and production. Having known what foods
        increase secretion,you can include them as part of your regular diet.I've drafted a diet chart  to 
        incorporate foods that boost lactation in the table below. Its important to stay healthy when you have a baby to feed.So keeping 
@@ -35,7 +43,7 @@ const DietChart = (props) => {
     </div>
     <div className="row justify-content-center">  
     <div className="col-auto">   
-    <Table hover responsive bordered>
+    <Table hover responsive bordered >
       <thead className="bg-header text-white">
         <tr>
           <th>TIME</th>
@@ -45,12 +53,6 @@ const DietChart = (props) => {
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>6 am</td>
-          <td>Ginger chaaru with honey</td>
-          <td>Ginger chaaru with honey</td>
-          <td>Improves digetion.Relieves constipation.</td>
-        </tr>
         <tr>
           <td>6:30 am</td>
           <td>2 glasses of milk with Lactare granules</td>
@@ -83,7 +85,7 @@ const DietChart = (props) => {
         </tr>        
         <tr>
           <td>1 pm</td>
-          <td>Marundhu Kuzhambu with vegetable fried in ghee or Spinach</td>
+          <td>Marundhu Kuzhambu with vegetable fried in ghee or Spinach/Brown rice</td>
           <td>Sardines/Dry fish/Mutton liver or spleen with marundhu podi</td>
           <td>Marundhu kuzhambu is a traditional tamilnadu recipie needed for the good health of mother and baby </td>
         </tr>                
@@ -107,8 +109,8 @@ const DietChart = (props) => {
         </tr>        
         <tr>
           <td>6 pm</td>
-          <td>Mothers horlicks/Boiled tapioca/Khus khus balls/Ellu urundai/Groundnuts</td>
-          <td>Mothers horlicks/Boiled tapioca/Khus khus balls/Ellu urundai/Groundnuts</td>
+          <td>Mothers horlicks/Boiled tapioca/Khus khus balls/Sesame balls/Groundnuts</td>
+          <td>Mothers horlicks/Boiled tapioca/Khus khus balls/Sesame balls/Groundnuts</td>
           <td>These are good sources of calcium and help in improving bone strength</td>
         </tr>                
         <tr>
@@ -122,13 +124,7 @@ const DietChart = (props) => {
           <td>Wheat dosa/Rava/Broken wheat rava</td>
           <td>Chapathi with chicken/mutton kurma</td>
           <td>Wheat is a magic food to increase milk production</td>
-        </tr>        
-        <tr>
-          <td>10 pm</td>
-          <td>Garlic with karupatti</td>
-          <td>Garlic with karupatti</td>
-          <td>Detoxify body,relieve gas and maintain cholestrol levels</td>
-        </tr>              
+        </tr>            
         <tr>
           <td>10:30 pm</td>
           <td>Prasava legiyam/Iron and folic acid supplements</td>
