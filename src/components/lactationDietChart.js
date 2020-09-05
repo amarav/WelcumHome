@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const DietChart = (props) => {
   return (
-    <div className="container">
+    <div className="container align-items-center justify-content-center ">
     
     <section className="page-section bg-light" >
     <div className="row">
@@ -21,9 +21,20 @@ const DietChart = (props) => {
       <h3 className="section-subheading text-muted">Routine diet throughout breastfeeding
       </h3>
     </div>
-    
+    <div className = "align-items-center justify-content-center">
+       A daily healthy routine during breastfeeding is important to sustain milk flow and production. Having known what foods
+       increase secretion,you can include them as part of your regular diet.I've drafted a diet chart  to 
+       incorporate foods that boost lactation in the table below. Its important to stay healthy when you have a baby to feed.So keeping 
+       the health of baby and mother in mind this chart is drafted.<br /><br/>
+       Some of the below foods mentioned maybe allergic to you,so chose which is best for you and your baby.
+       Paal sura and tender brinjal increases itchiness around your unhealed wounds.Its better to avoid them during the initial weeks and later 
+       include it as part of your diet.<br /><br/>
+       This routine should be only followed 28 days after delivery. For the first month, it is advised to be in patthiyam.
+       To know more about the post-partum diet to be taken for one month after delivery, refer to  Post partum diet for first month
+       <br /><br/>
+    </div>
     <div className="row justify-content-center">  
-    <div className="col-auto">
+    <div className="col-auto">   
     <Table hover responsive bordered>
       <thead className="bg-header text-white">
         <tr>
@@ -62,7 +73,7 @@ const DietChart = (props) => {
           <td>9:30 am</td>
           <td>Sowbhagya sundi legiyam</td>
           <td>Sowbhagya sundi legiyam</td>
-          <td>????</td>
+          <td>All needed nutrients for breastfeeding mothers</td>
         </tr>   
         <tr>
           <td>11 am</td>
@@ -92,7 +103,7 @@ const DietChart = (props) => {
           <td>5 pm</td>
           <td>Sago payasam/Sugarcane juice/Arugampul juice</td>
           <td>Sago payasam/Sugarcane juice/Arugampul juice</td>
-          <td>Instant milk production</td>
+          <td>These are game changer foods during breastfeeding.</td>
         </tr>        
         <tr>
           <td>6 pm</td>

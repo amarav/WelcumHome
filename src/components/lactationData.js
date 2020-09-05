@@ -36,7 +36,7 @@ export const TOPFOODS = [
   export const INSTANTMILK = [
     {
       id:1,
-      name:"Javvarisi Payasam",
+      name:"Sago Payasam",
     },
     {
       id:2,
@@ -297,12 +297,12 @@ export const TOPFOODS = [
       }
   ];
 
-  export const topfoodsrc = "/assets/img/lactationboosters/milk.jpg";
-  export const instantmilksrc = "/assets/img/lactationboosters/milk.jpg";  
+  export const topfoodsrc = "/assets/img/lactationboosters/oats.jpg";
+  export const instantmilksrc = "/assets/img/lactationboosters/bun.jpg";  
   export const mustincsrc = "/assets/img/lactationboosters/milk.jpg";    
-  export const goodfoodsrc = "/assets/img/lactationboosters/milk.jpg";
+  export const goodfoodsrc = "/assets/img/lactationboosters/nuts.jpg";
      
-  export const vegfoodsrc = "/assets/img/lactationboosters/milk.jpg";     
-  export const nonvegfoodsrc = "/assets/img/lactationboosters/milk.jpg";        
-  export const seedsrc = "/assets/img/lactationboosters/milk.jpg";
-  export const fruitsrc = "/assets/img/lactationboosters/milk.jpg";
+  export const vegfoodsrc = "/assets/img/lactationboosters/coconut.jpg";     
+  export const nonvegfoodsrc = "/assets/img/lactationboosters/mutton.jpg";        
+  export const seedsrc = "/assets/img/lactationboosters/wheat.jpg";
+  export const fruitsrc = "/assets/img/lactationboosters/pomo.jpg";
