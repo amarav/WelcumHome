@@ -12,6 +12,7 @@ import ContactUs from './contactUs'
 import Footer from './Footer'
 import BootstrapCarousel from './Carousel'
 import Lactation from './lactation'
+import PostNatalCare from './PostNatalCare'
 import LactationThumbnailGallery from './Thumbnail'
 import Menu from './MediaMenu';
 import ThumbnailHeader from './ThumbnailHeader'
@@ -94,7 +95,8 @@ class Main extends Component
         <Switch>
             <Route path='/home' component={HomePage} />              
             <Route exact path='/Lactation' component={LactationFoods} />                        
-            <Route exact path='/LactationDietChart' component={DietChart} />
+            <Route exact path='/LactationDietChart' component={DietChart} />                       
+            <Route exact path='/PostNatalCare' component={PostNatalCare} /> 
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/Remedies' component={Menu} />            

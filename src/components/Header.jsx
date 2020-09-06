@@ -97,11 +97,14 @@ class Header extends Component {
                         <DropdownItem tag="a" href="/Lactation" active>
                           Lactation
                         </DropdownItem>
-                        <DropdownItem tag="a" href="/blah" active>
+                        <DropdownItem tag="a" href="/PostNatalCare" active>
                           Post natal care
                         </DropdownItem>
                         <DropdownItem tag="a" href="/blah" active>
                           Pregnancy
+                        </DropdownItem>                        
+                        <DropdownItem tag="a" href="/blah" active>
+                          Baby care
                         </DropdownItem>
                       </DropdownMenu>
                

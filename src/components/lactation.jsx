@@ -139,7 +139,7 @@ function lactation(props) {
             </div>
             <div className = "col-md-8 offset-md-3">
              <br/>
-             <h3>What else can I do to boost milk supply?</h3>
+             <h3>What else can I do to increase milk supply?</h3>
              <ol>
                <li>Frequent nursing at night helps to increase prolactin</li>
                <li>Find ways to deal with stress</li>
@@ -147,10 +147,16 @@ function lactation(props) {
                <li>Consuming lukewarm liquids before feeding</li>
                <li>Using warm compress over breast before feeding</li>               
                <li>Tying beetle leaf shown in slight flame around the breast</li>
+               <li>Drinking water during feeding</li>
+               <li>Massaging and tingling breasts before feeding</li>
+               <li>Nipple stimulation</li>
+               <li>Getting plenty of rest and sleep</li>
              </ol>
              
+             
+             <div className = "col-md-8 ">
+             <br/><br/>
              <h5>DISCLAIMER</h5>
-             <div className = "col-md-8 offset-md-3">
              All these information are based on the traditions followed in our family and are no way responsible
              for illness or harm caused to you or your baby.Always seek advice from doctor,lactation consultant and pediatrician.
              </div>
