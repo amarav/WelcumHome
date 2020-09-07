@@ -22,6 +22,7 @@ import Contact from './contact';
 import Home from './HomeComponent'
 import About from './AboutComponent'
 import DietChart from './lactationDietChart'
+import IngredientsKuzhambuPodi from "./PNIngredients.js";
 import {topfoodsrc,instantmilksrc,mustincsrc,goodfoodsrc,vegfoodsrc,nonvegfoodsrc,seedsrc,fruitsrc} from './lactationData'
 import Carousel from './Carousel'
 import { BrowserRouter } from 'react-router-dom';
@@ -103,7 +104,8 @@ class Main extends Component
             <Route exact path='/contact' component={ContactUs} />
             <Route exact path='/About' component={AboutWithId} />
             <Route path='/buynow' component={BuyNow} />             
-            <Route path='/booknow' component={Booknow} />     
+            <Route path='/booknow' component={Booknow} />  
+            <Route path='/Kuzhambupodi' component={IngredientsKuzhambuPodi} />     
             <Redirect to="/home" />
         </Switch> 
         <ContactUs/>

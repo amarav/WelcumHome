@@ -1,8 +1,12 @@
 import React from 'react'
 import { Breadcrumb, BreadcrumbItem, } from 'reactstrap';    
 import { Link } from 'react-router-dom';
-import IngredientsKuzhambuPodi,{ThreeDayMarundhu,PoonduLegiyam,PrasavaLegiyam,VendayaKazhi,ParuppuPodi,
-    MilaguPodiKuzhambu,Pugai} from './PNIngredients.js'
+import IngredientsKuzhambuPodi,{ThreeDayMarundhu,PoonduLegiyam,PrasavaLegiyam,VendayaKazhi,HerbalBath,AfterBath,
+    AfterBathBaby,DhristiSapadu,ParuppuPodi,KaruveppilaiPodi,KuzhiyalPodi,RubiAmla,PalaThailam,SittramuttiThailam,
+    MilaguPodiKuzhambu,PathiyaRasam,PoonduKuzhambu,Pugai,AvoidFoods} from './PNIngredients.js'
+import PNPortfolio from './PNPortfolio'
+import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
+
 
 function PostNatalCare()
 {
@@ -15,7 +19,7 @@ function PostNatalCare()
                     <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                     <BreadcrumbItem active>Postnatal Care</BreadcrumbItem>
                 </Breadcrumb> 
-                <div className = "col-md-8 offset-md-4">      1      <img
+                <div className = "col-md-8 offset-md-4">        <img
                     className="img-fluid"
                     src={require("../assets/img/portfolio/postpartumbaby.jpg")}
                     width="350" height="350" alt=""
@@ -37,17 +41,20 @@ function PostNatalCare()
             During this time, along with the diet, legiyam plays a vital role in the process of healing and recovery.
             <br></br><br></br>
             
+            
             <section className="page-section bg-light" >
+            
             <div className="container-fluid">
           <div className="text-center">
             <h3 className="section-heading text-uppercase">Post-natal diet</h3>
             <h3 className="section-subheading text-muted">The complete postpartum care
             </h3>
+            <PNPortfolio/>
               <div className = "col-md-8 offset-md-2 text-left">
-              <h4 className="page-section section-subheading">Kuzhambu podi</h4>
-              <IngredientsKuzhambuPodi />              
-              <h4 className="page-section section-subheading">The first three-day marundhu</h4> 
-              <h4 className="page-section section-subheading">Kadugu Legiyam</h4> 
+
+              <IngredientsKuzhambuPodi/>
+               <h4 className="page-section section-subheading">The first three-day marundhu</h4> 
+              <h4 id="kadugulegiyam" className="page-section section-subheading">Kadugu Legiyam</h4> 
               The following ingredients need to be grinded and taken for the first 3 days after delivery.
               This helps to clean the uterus. After taking the marundhu, water should not be taken for half an hour,
               otherwise it may lead to stomach upset.<br/><br/>              
@@ -60,6 +67,13 @@ function PostNatalCare()
               <PoonduLegiyam/>                
               <h4 className="page-section section-subheading">Prasava Legiyam</h4>
               <PrasavaLegiyam/>
+              All the above ingredients need to be dry fried and grinded finely to prepare the marundhu podi.In ginger juice extract,cashews should 
+              be boiled and then the skin and seeds should be separated.Old karupatti should be added to this and heated well.
+              This mixture should be filtered and after it reaches Ilam Paagu stage, the grinded marundhu podi should be 
+              added to this and mixed well until legiyam padham is reached. This is the stage to turn off the stove.
+              Add 100 gm ghee to this and kept in an air-tight container.Everyday after dinner this legiyam should be consumed 
+              at night ( one agappai quantity ). Water should not be taken for 1/2 hour after taking legiyam.
+
               <br/><br/>            
               <h4 className="page-section section-subheading">Aarathi for baby</h4>
               <ul>
@@ -86,7 +100,48 @@ function PostNatalCare()
               Fry one large size tomato in ghee. Add a tumbler of water and add one spoon of the prepared powder.
               This should be used with rice and consumed.The same kuzhambu should be used as sidedish for idly.
               <MilaguPodiKuzhambu/>
-                                                                         
+
+              <h4 className="page-section section-subheading">Karuvepillai Podi</h4>
+              Curry leaves should be dry fried and powdered.This podi should be taken along with rice and ghee
+              <KaruveppilaiPodi/>
+              <h4 className="page-section section-subheading">Poondu Kuzhambu</h4>  
+              The below ingredients need to be grinded and stored in air-tight container.
+              While preparing kuzhambu,this podi needs to be added                                      
+              <PoonduKuzhambu/>  
+              <h4 className="page-section section-subheading">Pathiya Rasam</h4>  
+              The below ingredients should be boiled in water. Tamarind should not be added and 
+              rasam should NOT be tempered with mustard and red chilly
+              <PathiyaRasam/>  
+              
+              <h4 className="page-section section-subheading">Rubi Amla</h4>  
+              The below ingredients 
+              <RubiAmla/>
+              <h4 className="page-section section-subheading">Palaa Thailam</h4> 
+              <PalaThailam/> 
+              <h4 className="page-section section-subheading">Sitraamutti Thailam</h4> 
+             <SittramuttiThailam />
+              <h4 className="page-section section-subheading">Kuzhiyal Podi</h4> 
+              The below ingredients should be brought to oil stage and then used for bathing by the new mother
+              <KuzhiyalPodi/>
+              <h4 className="page-section section-subheading">The 16 day bath procedure</h4> 
+              The below ingredients should be well boiled in water the previous night.Again it should be boiled
+              before bathing the next day. Normal water should not be mixed with this water. Even for taking headbath,
+              only hot water should be used.
+              <HerbalBath/>
+              <br/><br/>
+              <h4 className="page-section section-subheading">The 16 day after-bath procedure</h4> 
+              The below ingredients should be grinded and mixed with honey and consumed
+              <AfterBath/>
+              <h4 className="page-section section-subheading">Dhristi for baby after bathing</h4> 
+              The below ingredients should be used for dhristi for baby after bathing
+              <AfterBathBaby/>
+              <h4 className="page-section section-subheading">Dhristi Sapadu</h4> The below ingredients need to be
+              dry fried without adding oil dnd should NOT temper with mustard and then powdered finely.This should be 
+              mixed in rice along with ghee and consumed. This should be given to mother
+              on the 16th day. Interesting this about this is, when mother takes one handful and brings near mouth,it
+              should be grabbed from her hands and circled over mothers head for 3 times and given to dog.Important thing
+              to note is, crow should not consume this dhristi food.
+              <DhristiSapadu/>
               <h4 className="page-section section-subheading">Pugai Poduthal</h4>
               <Pugai/>
               <h4 className="page-section section-subheading">The first 3 day diet</h4>
@@ -94,7 +149,7 @@ function PostNatalCare()
                    <li>For the first 3 days after delivery, at early morning around 6am,ginger  be consumed along with honey.</li>
                    <li>For the first 3 days after delivery, at night around 10pm, turmeric balls ( size of amla )  should be taken.To prepare this,turmeric should be mixed with 
                    lukewarm water and taken.If taken,the next day morning, ginger must be taken compulsory</li>
-                   <li>For the first 3 days after delivery, at night around 10:30pm, Poondu legiyam should be taken.If taken,the next day morning, ginger must be taken compulsory.Water should be taken only 1/2 after taking legiyam</li>
+                   <li>For the first 3 days after delivery, at night around 10:30pm, Poondu legiyam should be taken.If taken,the next day morning, ginger must be taken compulsory.Water should be taken only 1/2 hour after taking legiyam</li>
                    <li>For the first 3 days after delivery,at night around 11pm, Sukku legiyam should be taken.Water should be taken only 1/2 after taking legiyam</li>
                </ul>
                
@@ -109,31 +164,29 @@ function PostNatalCare()
                   <li>After 35 days of delivery, Vendhaya Kazhi should be consumed once in 2 weeks as long as you breastfeed.
                   If taken,the next day morning, ginger must be taken compulsory.Water should be taken only 1/2 after taking legiyam</li>
               </ul>
-              <h4 className="page-section section-subheading">Foods to avoid for first 28 days</h4>
-              Following foods should be avoided during the first month as mothers digestive system and immune system
-              is weak and baby's GA tract isnt completely developed
-              1.Spinach
-              2.Egg
-              3.Dried fish 
-              4.Gassy foods like potato,Vaalakai
-              5.Hot liquids/foods
-              6.Cold foods/liquids, even curd rice,lemon rice 
-              7.Coconut
-              8.Dosa
-              9.Green chilly.Pepper is preferred.Small amount of red chilly is allowed
-              10.Pulses
-              11.Dried fish. It may cause allergies and itches in your unhealed wounds
-              12.Daal.Moong daal is preferred.
-              13.Oil. Ghee is prefferd
-              14.Raw vegetables
-              15.Non veg not for first 15 days
-              16.Fried food
+              <h4 className="page-section section-subheading">What to avoid for first 28 days</h4>
+              Following foods should be avoided only during the first month as mothers digestive system and immune system
+              <br></br>
+              <br></br>
+              <AvoidFoods/>
               </div>
+
+              <div className = "col-md-8  offset-md-2  text-left">
+             <br/><br/>
+             <h5>DISCLAIMER</h5>
+             All these information are based on the traditions followed in our family and are no way responsible
+             for illness or harm caused to you or your baby.Always seek advice from doctor,siddha doctor,lactation consultant and pediatrician.
+             This is followed for normal labour only and for c section mothers it is advised to take only after surgical wounds
+             are healed. Please consult to siddha doctor before taking any of these.
+             </div>
               </div>
             
               </div> 
+              
               </section>
+              
             </div>
+            
             </div>
     </div>
     </div>
