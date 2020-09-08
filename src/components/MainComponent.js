@@ -13,6 +13,12 @@ import Footer from './Footer'
 import BootstrapCarousel from './Carousel'
 import Lactation from './lactation'
 import PostNatalCare from './PostNatalCare'
+import PNLegiyam from './PNLegiyam'
+import PNPathiyaDiet from './PNPathiyaDiet'
+import PNMarundhuPodi from './PNMarundhuPodi'
+import PNPathiyaSapadu from './PNPathiyaSapadu'
+import PNBath from './PNBath'
+import PNDhristi from './PNDhristi'
 import LactationThumbnailGallery from './Thumbnail'
 import Menu from './MediaMenu';
 import ThumbnailHeader from './ThumbnailHeader'
@@ -97,15 +103,20 @@ class Main extends Component
             <Route path='/home' component={HomePage} />              
             <Route exact path='/Lactation' component={LactationFoods} />                        
             <Route exact path='/LactationDietChart' component={DietChart} />                       
-            <Route exact path='/PostNatalCare' component={PostNatalCare} /> 
+            <Route exact path='/PostNatalCare' component={PostNatalCare} />                                   
+            <Route exact path='/PNLegiyam' component={PNLegiyam} />                                    
+            <Route exact path='/PNPathiyaDiet' component={PNPathiyaDiet} />                                            
+            <Route exact path='/PNMarundhuPodi' component={PNMarundhuPodi} />                                           
+            <Route exact path='/PNPathiyaSapadu' component={PNPathiyaSapadu} />                                          
+            <Route exact path='/PNDhristi' component={PNDhristi} />                                          
+            <Route exact path='/PNKuzhiyal' component={PNBath} />             
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/Remedies' component={Menu} />            
             <Route exact path='/contact' component={ContactUs} />
             <Route exact path='/About' component={AboutWithId} />
             <Route path='/buynow' component={BuyNow} />             
-            <Route path='/booknow' component={Booknow} />  
-            <Route path='/Kuzhambupodi' component={IngredientsKuzhambuPodi} />     
+            <Route path='/booknow' component={Booknow} />      
             <Redirect to="/home" />
         </Switch> 
         <ContactUs/>

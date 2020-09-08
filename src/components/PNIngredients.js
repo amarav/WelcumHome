@@ -668,16 +668,7 @@ function IngredientsKuzhambuPodi()
 {
   return (
     <div>
-     <div className="container">
-          <div className="row">
-      <Breadcrumb>
-                    <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                    <BreadcrumbItem><Link to="/PostNatalCare">PostNatalCare</Link></BreadcrumbItem>                   
-                    <BreadcrumbItem active>Kuzhambu podi</BreadcrumbItem>
-                </Breadcrumb>
-                <div className = "col-md-8 offset-md-2">
-           
-    <h4 className="page-section section-subheading">Kuzhambu podi</h4>
+     
               
     <Table size="sm">
       <thead>
@@ -731,9 +722,7 @@ function IngredientsKuzhambuPodi()
       </tbody>
     </Table>
     </div>
-    </div>
-    </div>
-    </div>
+   
   );
  }
 

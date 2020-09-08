@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Card, Button, CardTitle, CardText, Row, Col } from "reactstrap";
 import { Collapse, CardBody, CardSubtitle } from "reactstrap";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import PNLegiyam from "./PNLegiyam";
 
 const Example = (props) => {
   const [card1collapse, setcard1Collapse] = useState(false);
@@ -22,27 +23,28 @@ const Example = (props) => {
   const [card6collapse, setcard6Collapse] = useState(false);
   const togglecard6 = () => setcard6Collapse(!card6collapse);
 
+  const [card7collapse, setcard7Collapse] = useState(false);
+  const togglecard7 = () => setcard7Collapse(!card7collapse);
+
+  const [card8collapse, setcard8Collapse] = useState(false);
+  const togglecard8 = () => setcard8Collapse(!card8collapse);
+
   return (
     <div>
       <Row>
-        <Col sm="6">
+        <Col sm="3">
           <Card body>
-            <CardTitle>Legiyam</CardTitle>
-            <CardText>
-              With supporting text below as a natural lead-in to additional
-              content.
-            </CardText>
             <Button
-              color="primary"
-              className="text-dark"
+              color="light"
+              className="text-dark "
               onClick={togglecard1}
               style={{ marginBottom: "1rem" }}
             >
-              Find out more
+              Legiyam
             </Button>
             <Collapse isOpen={card1collapse}>
               <Card>
-                <CardBody>
+                <CardBody className="text-left">
                   <ul>
                     <li>Kadugu Legiyam</li>
                     <li>Poondu legiyam</li>
@@ -50,90 +52,200 @@ const Example = (props) => {
                     <li>Prasava legiyam</li>
                   </ul>
                 </CardBody>
+                <Link to="/PNLegiyam" className="text-center">
+                  {" "}
+                  <Button
+                    color="light"
+                    className="text-dark stretch-link"
+                    style={{ marginBottom: "1rem" }}
+                  >
+                    Know more
+                  </Button>
+                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
-        <Col sm="6">
+        <Col sm="3">
           <Card body>
-            <CardTitle>Marundhu Podi</CardTitle>
-            <CardText>
-              With supporting text below as a natural lead-in to additional
-              content.
-            </CardText>
             <Button
-              color="primary"
+              color="light"
+              className="text-dark"
+              onClick={togglecard5}
+              style={{ marginBottom: "1rem" }}
+            >
+              Pathiya Diet
+            </Button>
+            <Collapse isOpen={card5collapse}>
+              <Card>
+                <CardBody className="text-left">
+                  <ul>
+                    <li>First 3 day diet</li>
+                    <li>First 28 days diet</li>
+                    <li>Foods to avoid</li>
+                    <li>First 28 days Diet Chart</li>
+                  </ul>
+                </CardBody>
+
+                <Link to="/PNPathiyaDiet" className="text-center">
+                  {" "}
+                  <Button
+                    color="light"
+                    className="text-dark"
+                    style={{ marginBottom: "1rem" }}
+                  >
+                    Know more
+                  </Button>
+                </Link>
+              </Card>
+            </Collapse>
+          </Card>
+        </Col>
+        <Col sm="3">
+          <Card body>
+            <Button
+              color="light"
+              className="text-dark"
+              onClick={togglecard6}
+              style={{ marginBottom: "1rem" }}
+            >
+              Baby Care
+            </Button>
+
+            <Collapse isOpen={card6collapse}>
+              <Card>
+                <CardBody className="text-left">
+                 
+                </CardBody>
+                <Link to="/PNLegiyam" className="text-center">
+                  {" "}
+                  <Button
+                    color="light"
+                    className="text-dark"
+                    style={{ marginBottom: "1rem" }}
+                  >
+                    Know more
+                  </Button>
+                </Link>
+              </Card>
+            </Collapse>
+          </Card>
+        </Col>
+        <Col sm="3">
+          <Card body>
+            <Button
+              color="light"
+              className="text-dark"
+              onClick={togglecard7}
+              style={{ marginBottom: "1rem" }}
+            >
+              Lactation
+            </Button>
+            <Collapse isOpen={card7collapse}>
+              <Card>
+                <CardBody className="text-left">
+                  <ul>
+                    <li>Breastfeeding Diet</li>
+                    <li>Foods to increase milk supply</li>
+                    <li>Tips to increase secretion</li>
+                  </ul>
+                </CardBody>
+                <Link to="/Lactation" className="text-center">
+                  {" "}
+                  <Button
+                    color="light"
+                    className="text-dark"
+                    style={{ marginBottom: "1rem" }}
+                  >
+                    Know more
+                  </Button>
+                </Link>
+              </Card>
+            </Collapse>
+          </Card>
+        </Col>
+
+        <Col sm="3">
+          <Card body>
+            <Button
+              color="light"
               className="text-dark"
               onClick={togglecard2}
               style={{ marginBottom: "1rem" }}
             >
-              Find out more
+              Marundhu Podi
             </Button>
             <Collapse isOpen={card2collapse}>
               <Card>
-                <CardBody>
+                <CardBody className="text-left">
                   <ul>
-                    <li><Link to="/Kuzhambupodi">Kuzhambu podi</Link></li>
+                    <li>Kuzhambu Podi</li>
                     <li>Paruppu podi</li>
                     <li>Karuveppilai Podi</li>
-                    <li>Kuzhiyal Podi</li>
                   </ul>
                 </CardBody>
+                <Link to="/PNMarundhuPodi" className="text-center">
+                  {" "}
+                  <Button
+                    color="light"
+                    className="text-dark"
+                    style={{ marginBottom: "1rem" }}
+                  >
+                    Know more
+                  </Button>
+                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
-        <Col sm="6">
+        <Col sm="3">
           <Card body>
-            <CardTitle>Pathiya Sapadu</CardTitle>
-            <CardText>
-              With supporting text below as a natural lead-in to additional
-              content.
-            </CardText>
             <Button
-              color="primary"
+              color="light"
               className="text-dark"
               onClick={togglecard3}
               style={{ marginBottom: "1rem" }}
             >
-              Find out more
+              Pathiya Sapadu
             </Button>
             <Collapse isOpen={card3collapse}>
               <Card>
-                <CardBody>
+                <CardBody className="text-left">
                   <ul>
                     <li>Milagu Podi Kuzhambu</li>
                     <li>Poondu Kuzhambu</li>
                     <li>Marundhu Kuzhambu</li>
                     <li>Pathiya Rasam</li>
-                    <li>Dhriti sapadu</li>
                     <li>Vendhaya kazhi</li>
-                    <li>Rubi Amla</li>
-                    <li>Sitraamutti Thailam</li>
                   </ul>
                 </CardBody>
+                <Link to="/PNPathiyaSapadu" className="text-center">
+                  {" "}
+                  <Button
+                    color="light"
+                    className="text-dark"
+                    style={{ marginBottom: "1rem" }}
+                  >
+                    Know more
+                  </Button>
+                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
-        <Col sm="6">
+        <Col sm="3">
           <Card body>
-            <CardTitle>Pathiya Kuzhiyal</CardTitle>
-            <CardText>
-              With supporting text below as a natural lead-in to additional
-              content.
-            </CardText>
             <Button
-              color="primary"
+              color="light"
               className="text-dark"
               onClick={togglecard4}
               style={{ marginBottom: "1rem" }}
             >
-              Find out more
+              Pathiya Kuzhiyal
             </Button>
             <Collapse isOpen={card4collapse}>
               <Card>
-                <CardBody>
+                <CardBody className="text-left">
                   <ul>
                     <li>Kuzhiyal Podi</li>
                     <li>Bath procedure</li>
@@ -141,68 +253,52 @@ const Example = (props) => {
                     <li>Pugai Poduthal</li>
                   </ul>
                 </CardBody>
+                <Link to="/PNKuzhiyal" className="text-center">
+                  {" "}
+                  <Button
+                    color="light"
+                    className="text-dark"
+                    style={{ marginBottom: "1rem" }}
+                  >
+                    Know more
+                  </Button>
+                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
-        <Col sm="6">
+        <Col sm="3">
           <Card body>
-            <CardTitle>Diet</CardTitle>
-            <CardText>
-              With supporting text below as a natural lead-in to additional
-              content.
-            </CardText>
             <Button
-              color="primary"
+              color="light"
               className="text-dark"
-              onClick={togglecard5}
+              onClick={togglecard8}
               style={{ marginBottom: "1rem" }}
             >
-              Find out more
+              Dhristi kalippu
             </Button>
-            <Collapse isOpen={card5collapse}>
-              <Card>
-                <CardBody>
-                  <ul>
-                    <li>First 3 day diet</li>
-                    <li>First 28 days diet</li>
-                    <li>Foods to avoid</li>
-                    <li>First 28 days Diet Chart</li>
-                    <li>Breastfeeding Diet Chart</li>
-                    <li>Foods to increase milk secretion</li>
-                    <li>How to increase milk supply</li>
-                  </ul>
-                </CardBody>
-              </Card>
-            </Collapse>
           </Card>
-        </Col>
-        <Col sm="6">
-          <Card body>
-            <CardTitle>Baby Care</CardTitle>
-            <CardText>
-              With supporting text below as a natural lead-in to additional
-              content.
-            </CardText>
-            <Button
-              color="primary"
-              className="text-dark"
-              onClick={togglecard6}
-              style={{ marginBottom: "1rem" }}
-            >
-              Find out more
-            </Button>
-            <Collapse isOpen={card6collapse}>
-              <Card >
-                <CardBody>
-                  <ul>
-                    <li>Aarathi procedure</li>
-                    <li>Dhristi kalippu for baby</li>
-                  </ul>
-                </CardBody>
-              </Card>
-            </Collapse>
-          </Card>
+          <Collapse isOpen={card8collapse}>
+            <Card>
+              <CardBody className="text-left">
+                <ul>
+                  <li>Aarathi procedure</li>
+                  <li>Dhristi Sapadu</li>
+                  <li>Dhristi kalippu for baby</li>
+                </ul>
+              </CardBody>
+              <Link to="/PNDhristi" className="text-center">
+                {" "}
+                <Button
+                  color="light"
+                  className="text-dark"
+                  style={{ marginBottom: "1rem" }}
+                >
+                  Know more
+                </Button>
+              </Link>
+            </Card>
+          </Collapse>
         </Col>
       </Row>
     </div>

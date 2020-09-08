@@ -19,12 +19,18 @@ function PostNatalCare()
                     <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                     <BreadcrumbItem active>Postnatal Care</BreadcrumbItem>
                 </Breadcrumb> 
+
+               
+               </div>
+               <div className="col-10 col-md m-1"> 
+               
                 <div className = "col-md-8 offset-md-4">        <img
                     className="img-fluid"
                     src={require("../assets/img/portfolio/postpartumbaby.jpg")}
                     width="350" height="350" alt=""
                   />
                   </div>
+                  
             <div className = "col-md-8 offset-md-2">
             <br/>
             Post-partum is the phase after delivery and usually termed as the Fourth trimester. After nine months 
@@ -41,7 +47,15 @@ function PostNatalCare()
             During this time, along with the diet, legiyam plays a vital role in the process of healing and recovery.
             <br></br><br></br>
             
-            
+            </div>
+
+            <div className="col-10 col-md m-1"> 
+               
+               <PNPortfolio/>
+               </div>
+
+            <div className = "col-md-8 offset-md-2">
+           
             <section className="page-section bg-light" >
             
             <div className="container-fluid">
@@ -49,9 +63,8 @@ function PostNatalCare()
             <h3 className="section-heading text-uppercase">Post-natal diet</h3>
             <h3 className="section-subheading text-muted">The complete postpartum care
             </h3>
-            <PNPortfolio/>
+           
               <div className = "col-md-8 offset-md-2 text-left">
-
               <IngredientsKuzhambuPodi/>
                <h4 className="page-section section-subheading">The first three-day marundhu</h4> 
               <h4 id="kadugulegiyam" className="page-section section-subheading">Kadugu Legiyam</h4> 
