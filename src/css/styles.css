@@ -4392,11 +4392,18 @@ input[type=button].btn-block {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem;
+  padding: 1.25rem;  
+  font-size: 0.85rem;
 }
 
 .card-title {
   margin-bottom: 0.75rem;
+}
+
+.card-button{
+  
+   margin-bottom: 1rem;
+   margin-left: 1.5rem;
 }
 
 .card-title h3.heading{  
@@ -4414,6 +4421,13 @@ margin-bottom: 4rem;
 
 .card-text:last-child {
   margin-bottom: 0;
+}
+
+.h7 {
+font-size: 0.10rem;
+font-style: italic;
+font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+margin-bottom: 4rem;
 }
 
 .card-link:hover {

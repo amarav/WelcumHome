@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Card, Button, CardTitle, CardText, Row, Col } from "reactstrap";
-import { Collapse, CardBody, CardSubtitle } from "reactstrap";
+import { Collapse, CardBody, CardSubtitle, CardImg } from "reactstrap";
 import { Link } from "react-router-dom";
 import PNLegiyam from "./PNLegiyam";
 
@@ -33,10 +33,17 @@ const Example = (props) => {
     <div>
       <Row>
         <Col sm="3">
-          <Card body>
+          <CardImg
+            src="/assets/img/postnatal/legiyam.jpg"
+            alt="Image"
+            width="350"
+            height="170"
+          />
+
+          <Card body className="card-body">
             <Button
-              color="light"
-              className="text-dark "
+              color="warning"
+              className="text-dark"
               onClick={togglecard1}
               style={{ marginBottom: "1rem" }}
             >
@@ -51,25 +58,27 @@ const Example = (props) => {
                     <li>Sukku legiyam</li>
                     <li>Prasava legiyam</li>
                   </ul>
+                  <Link to="/PNLegiyam" className="text-center">
+                    {" "}
+                    <Button color="link" className="text-info card-button">
+                      Know more
+                    </Button>
+                  </Link>
                 </CardBody>
-                <Link to="/PNLegiyam" className="text-center">
-                  {" "}
-                  <Button
-                    color="light"
-                    className="text-dark stretch-link"
-                    style={{ marginBottom: "1rem" }}
-                  >
-                    Know more
-                  </Button>
-                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
         <Col sm="3">
+          <CardImg
+            src="/assets/img/postnatal/diet.jpg"
+            alt="Image"
+            width="350"
+            height="170"
+          />
           <Card body>
             <Button
-              color="light"
+              color="warning"
               className="text-dark"
               onClick={togglecard5}
               style={{ marginBottom: "1rem" }}
@@ -85,26 +94,31 @@ const Example = (props) => {
                     <li>Foods to avoid</li>
                     <li>First 28 days Diet Chart</li>
                   </ul>
+                  <Link to="/PNPathiyaDiet" className="text-center">
+                    {" "}
+                    <Button
+                      color="link"
+                      className="text-info card-button"
+                      style={{ marginBottom: "1rem" }}
+                    >
+                      Know more
+                    </Button>
+                  </Link>
                 </CardBody>
-
-                <Link to="/PNPathiyaDiet" className="text-center">
-                  {" "}
-                  <Button
-                    color="light"
-                    className="text-dark"
-                    style={{ marginBottom: "1rem" }}
-                  >
-                    Know more
-                  </Button>
-                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
         <Col sm="3">
+          <CardImg
+            src="/assets/img/postnatal/baby.jpg"
+            alt="Image"
+            width="350"
+            height="170"
+          />
           <Card body>
             <Button
-              color="light"
+              color="warning"
               className="text-dark"
               onClick={togglecard6}
               style={{ marginBottom: "1rem" }}
@@ -115,31 +129,36 @@ const Example = (props) => {
             <Collapse isOpen={card6collapse}>
               <Card>
                 <CardBody className="text-left">
-                 
+                  <Link to="/PNLegiyam" className="text-center">
+                    {" "}
+                    <Button
+                      color="link"
+                      className="text-info card-button"
+                      style={{ marginBottom: "1rem" }}
+                    >
+                      Know more
+                    </Button>
+                  </Link>
                 </CardBody>
-                <Link to="/PNLegiyam" className="text-center">
-                  {" "}
-                  <Button
-                    color="light"
-                    className="text-dark"
-                    style={{ marginBottom: "1rem" }}
-                  >
-                    Know more
-                  </Button>
-                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
         <Col sm="3">
+          <CardImg
+            src="/assets/img/postnatal/lactation.jpg"
+            alt="Image"
+            width="350"
+            height="170"
+          />
           <Card body>
             <Button
-              color="light"
+              color="warning"
               className="text-dark"
               onClick={togglecard7}
               style={{ marginBottom: "1rem" }}
             >
-              Lactation
+              Breastfeeding
             </Button>
             <Collapse isOpen={card7collapse}>
               <Card>
@@ -149,26 +168,32 @@ const Example = (props) => {
                     <li>Foods to increase milk supply</li>
                     <li>Tips to increase secretion</li>
                   </ul>
+                  <Link to="/Lactation" className="text-center">
+                    {" "}
+                    <Button
+                      color="link"
+                      className="text-info card-button"
+                      style={{ marginBottom: "1rem" }}
+                    >
+                      Know more
+                    </Button>
+                  </Link>
                 </CardBody>
-                <Link to="/Lactation" className="text-center">
-                  {" "}
-                  <Button
-                    color="light"
-                    className="text-dark"
-                    style={{ marginBottom: "1rem" }}
-                  >
-                    Know more
-                  </Button>
-                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
-
+        <br></br>
         <Col sm="3">
+          <CardImg
+            src="/assets/img/postnatal/podi.jpg"
+            alt="Image"
+            width="350"
+            height="170"
+          />
           <Card body>
             <Button
-              color="light"
+              color="warning"
               className="text-dark"
               onClick={togglecard2}
               style={{ marginBottom: "1rem" }}
@@ -183,25 +208,31 @@ const Example = (props) => {
                     <li>Paruppu podi</li>
                     <li>Karuveppilai Podi</li>
                   </ul>
+                  <Link to="/PNMarundhuPodi" className="text-center">
+                    {" "}
+                    <Button
+                      color="link"
+                      className="text-info card-button"
+                      style={{ marginBottom: "1rem" }}
+                    >
+                      Know more
+                    </Button>
+                  </Link>
                 </CardBody>
-                <Link to="/PNMarundhuPodi" className="text-center">
-                  {" "}
-                  <Button
-                    color="light"
-                    className="text-dark"
-                    style={{ marginBottom: "1rem" }}
-                  >
-                    Know more
-                  </Button>
-                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
         <Col sm="3">
+          <CardImg
+            src="/assets/img/postnatal/kuzhambu.jpg"
+            alt="Image"
+            width="350"
+            height="170"
+          />
           <Card body>
             <Button
-              color="light"
+              color="warning"
               className="text-dark"
               onClick={togglecard3}
               style={{ marginBottom: "1rem" }}
@@ -218,25 +249,32 @@ const Example = (props) => {
                     <li>Pathiya Rasam</li>
                     <li>Vendhaya kazhi</li>
                   </ul>
+
+                  <Link to="/PNPathiyaSapadu" className="text-center">
+                    {" "}
+                    <Button
+                      color="link"
+                      className="text-info card-button"
+                      style={{ marginBottom: "1rem" }}
+                    >
+                      Know more
+                    </Button>
+                  </Link>
                 </CardBody>
-                <Link to="/PNPathiyaSapadu" className="text-center">
-                  {" "}
-                  <Button
-                    color="light"
-                    className="text-dark"
-                    style={{ marginBottom: "1rem" }}
-                  >
-                    Know more
-                  </Button>
-                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
         <Col sm="3">
+          <CardImg
+            src="/assets/img/postnatal/bath.jpg"
+            alt="Image"
+            width="350"
+            height="170"
+          />
           <Card body>
             <Button
-              color="light"
+              color="warning"
               className="text-dark"
               onClick={togglecard4}
               style={{ marginBottom: "1rem" }}
@@ -252,32 +290,38 @@ const Example = (props) => {
                     <li>After Bath procedure</li>
                     <li>Pugai Poduthal</li>
                   </ul>
+
+                  <Link to="/PNKuzhiyal" className="text-center">
+                    {" "}
+                    <Button
+                      color="link"
+                      className="text-info card-button"
+                      style={{ marginBottom: "1rem" }}
+                    >
+                      Know more
+                    </Button>
+                  </Link>
                 </CardBody>
-                <Link to="/PNKuzhiyal" className="text-center">
-                  {" "}
-                  <Button
-                    color="light"
-                    className="text-dark"
-                    style={{ marginBottom: "1rem" }}
-                  >
-                    Know more
-                  </Button>
-                </Link>
               </Card>
             </Collapse>
           </Card>
         </Col>
         <Col sm="3">
+          <CardImg
+            src="/assets/img/postnatal/dhristi.jpg"
+            alt="Image"
+            width="350"
+            height="170"
+          />
           <Card body>
             <Button
-              color="light"
+              color="warning"
               className="text-dark"
               onClick={togglecard8}
               style={{ marginBottom: "1rem" }}
             >
               Dhristi kalippu
             </Button>
-          </Card>
           <Collapse isOpen={card8collapse}>
             <Card>
               <CardBody className="text-left">
@@ -286,19 +330,22 @@ const Example = (props) => {
                   <li>Dhristi Sapadu</li>
                   <li>Dhristi kalippu for baby</li>
                 </ul>
+
+                <Link to="/PNDhristi" className="text-center">
+                  {" "}
+                  <Button
+                    color="link"
+                    className="text-info card-button"
+                    style={{ marginBottom: "1rem" }}
+                  >
+                    Know more
+                  </Button>
+                </Link>
               </CardBody>
-              <Link to="/PNDhristi" className="text-center">
-                {" "}
-                <Button
-                  color="light"
-                  className="text-dark"
-                  style={{ marginBottom: "1rem" }}
-                >
-                  Know more
-                </Button>
-              </Link>
             </Card>
           </Collapse>
+          
+          </Card>
         </Col>
       </Row>
     </div>
