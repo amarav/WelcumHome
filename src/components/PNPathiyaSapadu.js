@@ -1,7 +1,12 @@
 import React from "react";
 import { Breadcrumb, BreadcrumbItem } from "reactstrap";
 import { Link } from "react-router-dom";
-import { MilaguPodiKuzhambu,PathiyaRasam,PoonduKuzhambu,VendayaKazhi} from "./PNIngredients.js";
+import {
+  MilaguPodiKuzhambu,
+  PathiyaRasam,
+  PoonduKuzhambu,
+  VendayaKazhi,
+} from "./PNIngredients.js";
 
 function PNPathiyaSapadu() {
   return (
@@ -23,28 +28,36 @@ function PNPathiyaSapadu() {
         <div className="container-fluid">
           <div className="text-center">
             <h3 className="section-heading text-uppercase">Pathiya Sapadu</h3>
-            <h3 className="section-subheading text-muted">Kuzhambu varieties</h3>
+            <h3 className="section-subheading text-muted">
+              Kuzhambu varieties
+            </h3>
             <div className="col-md-8 offset-md-2 text-left">
-            <h4 className="page-section section-subheading">Milagu Podi Kuzhambu</h4>
-              Pepper and Jeera need to be fried and grinded. It can be used while preparing kuzhambu.
-              Kuzhambu preparation:<br></br>
-              Fry one large size tomato in ghee. Add a tumbler of water and add one spoon of the prepared powder.
-              This should be used with rice and consumed.The same kuzhambu should be used as sidedish for idly.
-              <MilaguPodiKuzhambu/>
-
-               <h4 className="page-section section-subheading">Poondu Kuzhambu</h4>  
-              The below ingredients need to be grinded and stored in air-tight container.
-              While preparing kuzhambu,this podi needs to be added                                      
-              <PoonduKuzhambu/>  
-              <h4 className="page-section section-subheading">Pathiya Rasam</h4>  
-              The below ingredients should be boiled in water. Tamarind should not be added and 
-              rasam should NOT be tempered with mustard and red chilly
-              <PathiyaRasam/>  
-              <h4 className="page-section section-subheading">Vendhaya Kazhi</h4>          
-              <VendayaKazhi />                                                     
-             
-              
-               <div className="col-md-8  offset-md-2  text-left">
+              <h4 className="page-section section-subheading">
+                Milagu Podi Kuzhambu
+              </h4>
+              Pepper and Jeera need to be fried and grinded. It can be used
+              while preparing kuzhambu. Kuzhambu preparation:<br></br>
+              Fry one large size tomato in ghee. Add a tumbler of water and add
+              one spoon of the prepared powder. This should be used with rice
+              and consumed.The same kuzhambu should be used as sidedish for
+              idly.
+              <MilaguPodiKuzhambu />
+              <h4 className="page-section section-subheading">
+                Poondu Kuzhambu
+              </h4>
+              The below ingredients need to be grinded and stored in air-tight
+              container. While preparing kuzhambu,this podi needs to be added
+              <PoonduKuzhambu />
+              <h4 className="page-section section-subheading">Pathiya Rasam</h4>
+              The below ingredients should be boiled in water. Tamarind should
+              not be added and rasam should NOT be tempered with mustard and red
+              chilly
+              <PathiyaRasam />
+              <h4 className="page-section section-subheading">
+                Vendhaya Kazhi
+              </h4>
+              <VendayaKazhi />
+              <div className="col-md-8  offset-md-2  text-left">
                 <br />
                 <br />
                 <h5>DISCLAIMER</h5>

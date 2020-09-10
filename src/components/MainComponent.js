@@ -19,6 +19,8 @@ import PNMarundhuPodi from './PNMarundhuPodi'
 import PNPathiyaSapadu from './PNPathiyaSapadu'
 import PNBath from './PNBath'
 import PNDhristi from './PNDhristi'
+import blog from './blog'
+import BlogSecretofBriyani from "./BlogSecretofBriyani";
 import LactationThumbnailGallery from './Thumbnail'
 import Menu from './MediaMenu';
 import ThumbnailHeader from './ThumbnailHeader'
@@ -112,7 +114,9 @@ class Main extends Component
             <Route exact path='/PNKuzhiyal' component={PNBath} />             
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
-            <Route exact path='/Remedies' component={Menu} />            
+            <Route exact path='/Remedies' component={Menu} />  
+            <Route exact path='/blog' component={blog} />              
+            <Route exact path='/BlogSecretofBriyani' component={BlogSecretofBriyani} />                         
             <Route exact path='/contact' component={ContactUs} />
             <Route exact path='/About' component={AboutWithId} />
             <Route path='/buynow' component={BuyNow} />             

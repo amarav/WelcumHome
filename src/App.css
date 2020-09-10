@@ -29,5 +29,24 @@ address{
 }
 
 .navbar-dark {
-    background-color: #eb5b34;
+    background-color: #ff6600;
+}
+
+.mycard-footer{    
+    background-color: #d6d2d0;    
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mycard-button {
+    background-color: transparent;
+    color: #ff6600;
+    margin-bottom: 0;    
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.mycard-button:hover{
+    color: #642b05;
 }

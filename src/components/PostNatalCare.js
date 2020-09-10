@@ -5,7 +5,6 @@ import IngredientsKuzhambuPodi,{ThreeDayMarundhu,PoonduLegiyam,PrasavaLegiyam,Ve
     AfterBathBaby,DhristiSapadu,ParuppuPodi,KaruveppilaiPodi,KuzhiyalPodi,RubiAmla,PalaThailam,SittramuttiThailam,
     MilaguPodiKuzhambu,PathiyaRasam,PoonduKuzhambu,Pugai,AvoidFoods} from './PNIngredients.js'
 import PNPortfolio from './PNPortfolio'
-import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 
 
 function PostNatalCare()
