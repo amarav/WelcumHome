@@ -50,3 +50,8 @@ address{
 .mycard-button:hover{
     color: #642b05;
 }
+
+.mycard-col-3{
+    padding-left: 0.25rem;
+    flex: 1 0 23%
+}

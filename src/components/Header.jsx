@@ -141,7 +141,7 @@ class Header extends Component {
                         <DropdownItem tag="a" href="/booknow" active>
                           Consultation
                         </DropdownItem>
-                        <DropdownItem tag="a" href="/booknow" active>
+                        <DropdownItem tag="a" href="/roster" active>
                           Siddhargal
                         </DropdownItem>
                         <DropdownItem tag="a" href="/booknow" active>

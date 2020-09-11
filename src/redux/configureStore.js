@@ -3,6 +3,7 @@ import { Dishes } from './dishes';
 import { Comments } from './comments';
 import { Promotions } from './promotions';
 import { Leaders } from './leaders';
+import { Blogportfolio } from './blogportfolio'
 import { Topfoods,Instantfoods,MustIncfoods,Goodfoods,Vegfoods,Nonvegfoods,Seeds,Fruits} from './lactationData'
 
 export const ConfigureStore = () => {
@@ -19,9 +20,8 @@ export const ConfigureStore = () => {
             vegfoods:Vegfoods,
             nonvegfoods:Nonvegfoods,
             seeds:Seeds,
-            fruits:Fruits
-
-
+            fruits:Fruits,
+            blogportfolio: Blogportfolio,
         })
     );
 

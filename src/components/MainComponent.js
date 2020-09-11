@@ -31,6 +31,8 @@ import Home from './HomeComponent'
 import About from './AboutComponent'
 import DietChart from './lactationDietChart'
 import IngredientsKuzhambuPodi from "./PNIngredients.js";
+
+import Roster from './Roster'
 import {topfoodsrc,instantmilksrc,mustincsrc,goodfoodsrc,vegfoodsrc,nonvegfoodsrc,seedsrc,fruitsrc} from './lactationData'
 import Carousel from './Carousel'
 import { BrowserRouter } from 'react-router-dom';
@@ -119,6 +121,7 @@ class Main extends Component
             <Route exact path='/BlogSecretofBriyani' component={BlogSecretofBriyani} />                         
             <Route exact path='/contact' component={ContactUs} />
             <Route exact path='/About' component={AboutWithId} />
+            <Route path='/roster' component={Roster}/>     
             <Route path='/buynow' component={BuyNow} />             
             <Route path='/booknow' component={Booknow} />      
             <Redirect to="/home" />

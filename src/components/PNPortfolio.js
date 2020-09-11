@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Card, Button, CardTitle, CardText, Row, Col } from "reactstrap";
 import { Collapse, CardBody, CardSubtitle, CardImg } from "reactstrap";
 import { Link } from "react-router-dom";
-import PNLegiyam from "./PNLegiyam";
 
 const Example = (props) => {
   const [card1collapse, setcard1Collapse] = useState(false);
