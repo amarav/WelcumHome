@@ -13,7 +13,44 @@ import { Link } from "react-router-dom";
 import BlogAdvise from "./BlogAdvise";
 import BlogSecretofBriyani from "./BlogSecretofBriyani";
 import BlogSecretofSambar from "./BlogSambarSecret";
-import RenderBlogPost from './BlogPost'
+import BlogPostsAPI from './BlogPostData'
+
+
+function RenderBlogPost(props) {
+  return (
+    <div>
+       <Row className="justify-content-center">
+         
+    {BlogPostsAPI.all().map(p => (
+            
+          <Col className="col-sm-3 .mycard-col-3">
+          
+        <Card key={p.id}>
+            <div className="card-block">
+                <CardImg  src={p.source} alt="Image"  width="350" height="170"></CardImg>               
+                <CardText>
+                  <small className="text-muted">{p.when}</small>
+                  {p.title}
+                </CardText>        
+                <CardFooter className="mycard-footer">
+                  <Link to={`/blog/${p.id}`} className="text-center">
+                    <Button color="link" className="mycard-button stretched-link">
+                      READ POST
+                    </Button>
+                  </Link>
+                </CardFooter>
+              </div>    
+              
+                     
+            </Card>
+            </Col>
+          ))
+        }     
+        </Row>      
+    </div>
+  );
+}
+
 
 class Blog extends Component {
   
@@ -38,6 +75,8 @@ class Blog extends Component {
           <RenderBlogPost />
          
       </div>
+      <BlogSecretofBriyani />
+      <BlogSecretofSambar/>
     </div>
   );
 }

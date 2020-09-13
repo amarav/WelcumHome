@@ -17,6 +17,7 @@ import PNLegiyam from './PNLegiyam'
 import PNPathiyaDiet from './PNPathiyaDiet'
 import PNMarundhuPodi from './PNMarundhuPodi'
 import PNPathiyaSapadu from './PNPathiyaSapadu'
+import BlogPostContent from './BlogPostContent'
 import PNBath from './PNBath'
 import PNDhristi from './PNDhristi'
 import blog from './blog'
@@ -117,7 +118,8 @@ class Main extends Component
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/Remedies' component={Menu} />  
-            <Route exact path='/blog' component={blog} />              
+            <Route exact path='/blog' component={blog} />    
+            <Route path='/blog/:number' component={BlogPostContent}/>   
             <Route exact path='/BlogSecretofBriyani' component={BlogSecretofBriyani} />                         
             <Route exact path='/contact' component={ContactUs} />
             <Route exact path='/About' component={AboutWithId} />
