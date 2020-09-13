@@ -99,6 +99,12 @@ class Main extends Component
     );
   }
   
+  
+  const BlogPostwithID = ({match}) => {
+    return(
+      <BlogPostContent post={this.props.blogpostsAPI.filter((post) => post.id === parseInt(match.params.number,10))[0]} 
+      />  );
+  };
 
   return (
     <div>  
@@ -119,7 +125,7 @@ class Main extends Component
             <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/Remedies' component={Menu} />  
             <Route exact path='/blog' component={blog} />    
-            <Route path='/blog/:number' component={BlogPostContent}/>                           
+            <Route path='/blog/:number' component={BlogPostwithID}/>                           
             <Route exact path='/contact' component={ContactUs} />
             <Route exact path='/About' component={AboutWithId} />
             <Route path='/roster' component={Roster}/>     
