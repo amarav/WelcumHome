@@ -4,6 +4,7 @@ import { Comments } from './comments';
 import { Promotions } from './promotions';
 import { Leaders } from './leaders';
 import { Blogportfolio } from './blogportfolio'
+import { BlogpostsAPI } from './BlogPostData'
 import { Topfoods,Instantfoods,MustIncfoods,Goodfoods,Vegfoods,Nonvegfoods,Seeds,Fruits} from './lactationData'
 
 export const ConfigureStore = () => {
@@ -22,6 +23,7 @@ export const ConfigureStore = () => {
             seeds:Seeds,
             fruits:Fruits,
             blogportfolio: Blogportfolio,
+            blogpostsAPI:BlogpostsAPI,
         })
     );
 

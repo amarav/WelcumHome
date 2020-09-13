@@ -20,7 +20,7 @@ import PNPathiyaSapadu from './PNPathiyaSapadu'
 import BlogPostContent from './BlogPostContent'
 import PNBath from './PNBath'
 import PNDhristi from './PNDhristi'
-import blog from './blog'
+import blog from './FullBlog'
 import BlogSecretofBriyani from "./BlogSecretofBriyani";
 import LactationThumbnailGallery from './Thumbnail'
 import Menu from './MediaMenu';
@@ -32,7 +32,6 @@ import Home from './HomeComponent'
 import About from './AboutComponent'
 import DietChart from './lactationDietChart'
 import IngredientsKuzhambuPodi from "./PNIngredients.js";
-
 import Roster from './Roster'
 import {topfoodsrc,instantmilksrc,mustincsrc,goodfoodsrc,vegfoodsrc,nonvegfoodsrc,seedsrc,fruitsrc} from './lactationData'
 import Carousel from './Carousel'
@@ -53,7 +52,8 @@ const mapStateToProps = state => {
     vegfoods:state.vegfoods,
     nonvegfoods:state.nonvegfoods,
     seeds:state.seeds,
-    fruits:state.fruits
+    fruits:state.fruits,
+    blogpostsAPI:state.blogpostsAPI,
   }
 }
 
@@ -119,8 +119,7 @@ class Main extends Component
             <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/Remedies' component={Menu} />  
             <Route exact path='/blog' component={blog} />    
-            <Route path='/blog/:number' component={BlogPostContent}/>   
-            <Route exact path='/BlogSecretofBriyani' component={BlogSecretofBriyani} />                         
+            <Route path='/blog/:number' component={BlogPostContent}/>                           
             <Route exact path='/contact' component={ContactUs} />
             <Route exact path='/About' component={AboutWithId} />
             <Route path='/roster' component={Roster}/>     

@@ -75,8 +75,6 @@ class Blog extends Component {
           <RenderBlogPost />
          
       </div>
-      <BlogSecretofBriyani />
-      <BlogSecretofSambar/>
     </div>
   );
 }

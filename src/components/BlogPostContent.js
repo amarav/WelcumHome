@@ -5,7 +5,7 @@ import BlogSecretofBriyani from './BlogSecretofBriyani'
 import BlogSambarSecret from './BlogSambarSecret'
 import BlogAdvise from './BlogAdvise'
 
-const Components = {
+const mapStringtoComponents = {
     blogSecretofBriyani : BlogSecretofBriyani,
     blogSambarSecret : BlogSambarSecret,
     blogAdvise : BlogAdvise
@@ -20,7 +20,7 @@ const Post = (props) => {
     parseInt(props.match.params.number, 10)
   )
   
-  var MyComponent = Components[Post.componentname];
+  var MyComponent = mapStringtoComponents[Post.componentname];
   if (!Post) {
     return <div>Sorry, but the Post was not found</div>
   }
