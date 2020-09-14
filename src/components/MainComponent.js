@@ -22,8 +22,8 @@ import PNBath from './PNBath'
 import PNDhristi from './PNDhristi'
 import blog from './FullBlog'
 import BlogSecretofBriyani from "./BlogSecretofBriyani";
-import LactationThumbnailGallery from './Thumbnail'
-import Menu from './MediaMenu';
+import Babycarekit from './Babycarekit'
+import Homeremedies from './Homeremedies';
 import ThumbnailHeader from './ThumbnailHeader'
 import Dishdetail from './DishdetailComponent'
 import Recipies from './recipies'
@@ -123,7 +123,8 @@ class Main extends Component
             <Route exact path='/PNKuzhiyal' component={PNBath} />             
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
-            <Route exact path='/Remedies' component={Menu} />  
+            <Route exact path='/Homeremedies' component={Homeremedies} />             
+            <Route exact path='/Babycarekit' component={Babycarekit} />              
             <Route exact path='/blog' component={blog} />    
             <Route path='/blog/:number' component={BlogPostwithID}/>                           
             <Route exact path='/contact' component={ContactUs} />

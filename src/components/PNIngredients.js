@@ -573,6 +573,46 @@ function PoonduLegiyam()
             <td>Palm jagerry/Karupatti</td>
             <td>100gm</td>
           </tr> 
+          <tr>
+            <th scope="row">3</th>
+            <td>Ghee</td>
+            <td></td>
+          </tr> 
+          </tbody>
+          </Table>
+        </div>
+    );
+}
+
+
+function SukkuLegiyam()
+{
+    return(
+        <div>
+        <Table size="sm">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Ingredient</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Dried ginger</td>
+            <td></td>
+          </tr> 
+          <tr>
+            <th scope="row">2</th>
+            <td>Palm jagerry/Karupatti</td>
+            <td>100gm</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Ghee</td>
+            <td></td>
+          </tr> 
           </tbody>
           </Table>
         </div>
@@ -729,4 +769,4 @@ function IngredientsKuzhambuPodi()
 export default IngredientsKuzhambuPodi;
 export {ThreeDayMarundhu,PoonduLegiyam,PrasavaLegiyam,VendayaKazhi,KaruveppilaiPodi,AfterBath,
   SittramuttiThailam,ParuppuPodi,MilaguPodiKuzhambu,Pugai,AvoidFoods,HerbalBath,AfterBathBaby,
-  PoonduKuzhambu,PathiyaRasam,DhristiSapadu,KuzhiyalPodi,RubiAmla,PalaThailam};
+  PoonduKuzhambu,PathiyaRasam,DhristiSapadu,KuzhiyalPodi,RubiAmla,PalaThailam,SukkuLegiyam};

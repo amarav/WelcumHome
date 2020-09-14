@@ -58,8 +58,26 @@ function PostNatalCare()
                <PNPortfolio/>
                </div>
 
-            <div className = "col-md-8 offset-md-2">
-           
+            <div className = "col-md-4 offset-md-2">
+                      <div className="card h-100">
+                        <div className="card-body">
+                          <h4 className="card-title">Buy our Post-natal kit</h4>
+                          <p className="card-text text-center">
+                              <ul>
+                                  <li>Garlic legiyam</li>
+                                  <li>Dried ginger legiyam</li>
+                                  <li>Mustard legiyam</li>                                  
+                                  <li>Prasava legiyam</li>
+                                  <li>Milagu Podi</li>
+                                  <li>Vendhaya Kazhi Podi</li>
+                                  <li>Marundhu kuzhambu Podi</li>
+                              </ul>
+                          </p>
+                        </div>
+                        <div className="card-footer">
+                        <Link to='/PNLegiyam'  className="btn btn-success">BUY NOW</Link>
+                        </div>
+                      </div>
             <section className="page-section bg-light" >
             
             <div className="container-fluid">

@@ -5,7 +5,9 @@ import {
   ThreeDayMarundhu,
   PoonduLegiyam,
   PrasavaLegiyam,
+  SukkuLegiyam
 } from "./PNIngredients.js";
+import IngredientsKuzhambuPodi from "./PNIngredients.js";
 
 function PNLegiyam() {
   return (
@@ -35,23 +37,22 @@ function PNLegiyam() {
                 id="kadugulegiyam"
                 className="page-section section-subheading"
               >
-                Kadugu Legiyam
+                Mustard Legiyam
               </h4>
-              The following ingredients need to be grinded and taken for the
-              first 3 days after delivery. This helps to clean the uterus. After
+              This legiyam should be taken for the first 3 days after delivery.This helps to clean the uterus. After
               taking the marundhu, water should not be taken for half an hour,
-              otherwise it may lead to stomach upset.
+              otherwise it may lead to stomach upset.The preparation is as follows.
+              The following ingredients need to be grinded. 
               <br />
               <br />
               <ThreeDayMarundhu />
               <h4 className="page-section section-subheading">
-                Poondu Legiyam
+                Garlic Legiyam
               </h4>
+              This should be taken for the first 3 days after delivery. This helps to clean the uterus. After taking the marundhu, water should not be
+              taken for half an hour, otherwise it may lead to stomach upset.The preparation and ingredients is as follows.
               In Ginger juice extract, garlic pods should be boiled.Once
-              boiled,karupatti should be mixed with it along with ghee.This
-              should be taken for the first 3 days after delivery. This helps to
-              clean the uterus. After taking the marundhu, water should not be
-              taken for half an hour, otherwise it may lead to stomach upset.
+              boiled,karupatti should be mixed with it along with ghee.
               <br />
               <br />
               <PoonduLegiyam />
@@ -59,6 +60,8 @@ function PNLegiyam() {
                 Prasava Legiyam
               </h4>
               <PrasavaLegiyam />
+              Everyday after dinner this 10gms of this legiyam should be consumed at
+              night. Water should not be taken for 1/2 hour after taking legiyam.
               All the above ingredients need to be dry fried and grinded finely
               to prepare the marundhu podi.In ginger juice extract,cashews
               should be boiled and then the skin and seeds should be
@@ -67,15 +70,19 @@ function PNLegiyam() {
               stage, the grinded marundhu podi should be added to this and mixed
               well until legiyam padham is reached. This is the stage to turn
               off the stove. Add 100 gm ghee to this and kept in an air-tight
-              container.Everyday after dinner this legiyam should be consumed at
-              night ( one agappai quantity ). Water should not be taken for 1/2
-              hour after taking legiyam.
-              <h4 className="page-section section-subheading">Sukku Legiyam</h4>
-              Sukku should be dried well and then finely grinded without any
+              container.
+              <h4 className="page-section section-subheading">Dried ginger Legiyam</h4>
+              Sukku/Dried ginger should be dried well and then finely grinded without any
               coarse particles. Karupatti should be mixed with water and
               filtered and kept in medium heat. The dried powder should be mixed
               little by little along with ghee and prepared like a paste to get
               the legiyam consistency
+              <SukkuLegiyam/>
+              
+              <h4 className="page-section section-subheading">Kuzhambu podi</h4>
+              This podi needs to be used for preparing kuzhambu for mother for the first 28 days after delivery.
+              The following are the ingredients used and grinded.
+              <IngredientsKuzhambuPodi />
               <div className="col-md-8  offset-md-2  text-left">
                 <br />
                 <br />

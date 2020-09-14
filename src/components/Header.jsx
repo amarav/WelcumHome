@@ -91,7 +91,8 @@ class Header extends Component {
                         Lifestyle
                       </DropdownToggle>
                       <DropdownMenu>
-                        <DropdownItem tag="a" href="/Remedies" active>
+                      
+                        <DropdownItem tag="a" href="/Homeremedies" active>
                           Home remedies
                         </DropdownItem>
                         <DropdownItem tag="a" href="/Lactation" active>

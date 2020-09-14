@@ -50,8 +50,8 @@ class Menu extends Component {
                   <Media left middle>
                       <Media object src={dish.image} alt={dish.name} />
                   </Media>
-                  <Media body className="ml-5">
-                    <Media left><h3>{dish.name}</h3></Media>
+                  <Media body className="ml-3">
+                    <Media left><h5>{dish.name}</h5></Media>
                     <p>{dish.description}</p>
                   </Media>
                 </Media>

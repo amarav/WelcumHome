@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function BuyNow(){
     return(
@@ -29,7 +30,7 @@ function BuyNow(){
                           </p>
                         </div>
                         <div className="card-footer">
-                          <a href="#contact" className="btn btn-success">Find Out More!</a>
+                        <Link to='/PNLegiyam'  className="btn btn-success">Find Out More!</Link>
                         </div>
                       </div>
                     </div>
@@ -50,7 +51,7 @@ function BuyNow(){
                             </p>
                            </div>
                         <div className="card-footer">
-                          <a href="#contact" className="btn btn-success">Find Out More!</a>
+                        <Link to='/Babycarekit'  className="btn btn-success">Find Out More!</Link>
                         </div>
                       </div>
                     </div>
