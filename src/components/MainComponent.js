@@ -17,6 +17,7 @@ import PNLegiyam from './PNLegiyam'
 import PNPathiyaDiet from './PNPathiyaDiet'
 import PNMarundhuPodi from './PNMarundhuPodi'
 import PNPathiyaSapadu from './PNPathiyaSapadu'
+import PNWhytocare from './PNWhytocare'
 import BlogPostContent from './BlogPostContent'
 import PNBath from './PNBath'
 import PNDhristi from './PNDhristi'
@@ -120,7 +121,8 @@ class Main extends Component
             <Route exact path='/PNMarundhuPodi' component={PNMarundhuPodi} />                                           
             <Route exact path='/PNPathiyaSapadu' component={PNPathiyaSapadu} />                                          
             <Route exact path='/PNDhristi' component={PNDhristi} />                                          
-            <Route exact path='/PNKuzhiyal' component={PNBath} />             
+            <Route exact path='/PNKuzhiyal' component={PNBath} />                                                 
+            <Route exact path='/PNWhytocare' component={PNWhytocare} />                    
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/Homeremedies' component={Homeremedies} />             

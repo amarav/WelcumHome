@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import BlogAdvise from "./BlogAdvise";
 import BlogSecretofBriyani from "./BlogSecretofBriyani";
 import BlogSecretofSambar from "./BlogSambarSecret";
-import BlogPostsAPI from './BlogPostData'
+import {BlogPostsAPI} from './BlogpostsAPI'
 
 
 function RenderBlogPost(props) {
@@ -21,7 +21,7 @@ function RenderBlogPost(props) {
     <div>
        <Row className="justify-content-center">
          
-    {BlogPostsAPI.all().map(p => (
+    {BlogPostsAPI.map(p => (
             
           <Col className="col-sm-3 .mycard-col-3">
           

@@ -60,7 +60,7 @@ function PostNatalCare()
 
             <div className = "col-md-4 offset-md-2">
                       <div className="card h-100">
-                        <div className="card-body">
+                        <div className="card-body"  inverse style={{ backgroundColor: '#fec503', borderColor: '#333' }}>
                           <h4 className="card-title">Buy our Post-natal kit</h4>
                           <p className="card-text text-center">
                               <ul>
