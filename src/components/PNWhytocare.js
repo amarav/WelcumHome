@@ -23,7 +23,7 @@ function PNWhytocare() {
           <div className="text-center">
             <div className="col-md-8 offset-md-2 text-left">
               <h4 className="page-section section-subheading">
-                Why Postnatal care is important?
+                Why is postnatal care important?
               </h4>
               <div className="col-md-8 offset-md-3"> </div>
               <br />

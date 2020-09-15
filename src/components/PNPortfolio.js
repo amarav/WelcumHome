@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Card, Button, CardTitle, CardText, Row, Col } from "reactstrap";
-import { Collapse, CardBody, CardSubtitle, CardImg } from "reactstrap";
+import { Card, Button, CardTitle, CardText, Row, Col, Collapse, CardBody, CardSubtitle, CardImg } from "reactstrap";
 import { Link } from "react-router-dom";
 
 const Example = (props) => {
@@ -128,7 +127,7 @@ const Example = (props) => {
             <Collapse isOpen={card6collapse}>
               <Card>
                 <CardBody className="text-left">
-                  <Link to="/PNLegiyam" className="text-center">
+                  <Link to="/Babycarekit" className="text-center">
                     {" "}
                     <Button
                       color="link"

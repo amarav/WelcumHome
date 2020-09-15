@@ -14,7 +14,7 @@ function BlogAdvise() {
             <BreadcrumbItem>
               <Link to="/blog">Blog</Link>
             </BreadcrumbItem>
-            <BreadcrumbItem active>Advice from elders</BreadcrumbItem>
+            <BreadcrumbItem active>Top 10 tips for women after birth</BreadcrumbItem>
           </Breadcrumb>
         </div>
       </div>
@@ -24,7 +24,7 @@ function BlogAdvise() {
            
             <div className="col-md-8 offset-md-2 text-left">
               <h4 className="page-section section-subheading">
-              What advice elders gave me after birth?
+              Top 10 tips for women after birth
               </h4>
               <div className="col-md-8 offset-md-3">
             {" "}

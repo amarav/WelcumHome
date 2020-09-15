@@ -39,6 +39,10 @@ address{
     padding-bottom: 5px;
 }
 
+.mycard-header{        
+    background-color: #d6d2d0;  
+}
+
 .mycard-button {
     background-color: transparent;
     color: #ff6600;
@@ -53,5 +57,39 @@ address{
 
 .mycard-col-3{
     padding-left: 0.25rem;
-    flex: 1 0 23%
+    flex: 1 0 23%;
+}
+
+.my-media-heading{
+    font-size: 1rem;
+}
+.mysmcard
+{
+  width: 300px;
+  height:100px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  background-color: #d9dfe4;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mysmcard:hover{
+    background-color: #b5d1e7;
+}
+
+.mysmcard-image
+{
+  width:100px;
+  height: 100px;
+}
+
+.mysmcard-content
+{
+  font-size:1rem;
+  font-weight:400;
+  width: 100%;
+  padding: 10px 10px;
 }

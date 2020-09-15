@@ -27,9 +27,10 @@ function RenderBlogPost(props) {
           
         <Card key={p.id}>
             <div className="card-block">
-                <CardImg  src={p.source} alt="Image"  width="350" height="170"></CardImg>               
+                <CardImg className="mx-auto" src={p.source} alt="Image"  width="350" height="170"></CardImg>               
                 <CardText>
-                  <small className="text-muted">{p.when}</small>
+                  <small className="text-muted">{p.LastUpdated}</small>
+                  <br/>
                   {p.title}
                 </CardText>        
                 <CardFooter className="mycard-footer">
