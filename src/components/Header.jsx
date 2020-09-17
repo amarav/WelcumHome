@@ -120,10 +120,10 @@ class Header extends Component {
                         <DropdownItem tag="a" href="/buynow" active>
                           Post natal kit
                         </DropdownItem>
-                        <DropdownItem tag="a" href="/buynow" active>
+                        <DropdownItem tag="a" href="/Babycarekit" active>
                           Baby care kit
                         </DropdownItem>
-                        <DropdownItem tag="a" href="/buynow" active>
+                        <DropdownItem tag="a" href="/HerbalTea" active>
                           Herbal Tea
                         </DropdownItem>
                       </DropdownMenu>

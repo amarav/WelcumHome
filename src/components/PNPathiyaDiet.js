@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import {
   AvoidFoods
 } from "./PNIngredients.js";
+import PNDietChart from './PNDietChart'
 
 function PNPathiyaDiet() {
   return (
@@ -29,23 +30,27 @@ function PNPathiyaDiet() {
               The complete postpartum pathiya diet
             </h3>
             <div className="col-md-8 offset-md-2 text-left">
-            <h4 className="page-section section-subheading">The first 3 day diet</h4>
-               <ul>
-                   <li>For the first 3 days after delivery, at early morning around 6am,ginger  be consumed along with honey.</li>
+             
+               
+              <h4 className="page-section section-subheading">The first 28 day diet</h4>             
+              <ul>
+                  <li>For the first 28 days after delivery, at early morning around 6am,ginger should be consumed along with honey.</li>
+                  <li>For the first 28 days after delivery, at night, Garlic should be fried without oil/ghee or shown 
+                  directly in flame and consumed along with karuppatti</li>
                    <li>For the first 3 days after delivery, at night around 10pm, turmeric balls ( size of amla )  should be taken.To prepare this,turmeric should be mixed with 
                    lukewarm water and taken.If taken,the next day morning, ginger must be taken compulsory</li>
-                   <li>For the first 3 days after delivery, at night around 10:30pm, Poondu legiyam should be taken.If taken,the next day morning, ginger must be taken compulsory.Water should be taken only 1/2 hour after taking legiyam</li>
-                   <li>For the first 3 days after delivery,at night around 11pm, Sukku legiyam should be taken.Water should be taken only 1/2 after taking legiyam</li>
-               </ul>
-               
-              <h4 className="page-section section-subheading">The first 28 day diet</h4>
-              <ul>
-                  <li>For the first 28 days after delivery, Garlic should be fried without oil/ghee or shown 
-                  directly in flame and consumed along with karuppatti</li>
+                   <li>For the next 3 days, at night around 10:30pm, Poondu legiyam should be taken.If taken,the next day morning, ginger must be taken compulsory.Water should be taken only 1/2 hour after taking legiyam</li>
+                   <li>For the next 3 days after delivery,at night around 11pm, Sukku legiyam should be taken.Water should be taken only 1/2 after taking legiyam</li>
+                   <li>After this,for 28 days after delivery, after dinner 10gms of this legiyam should be consumed at
+              night. Water should not be taken for 1/2 hour after taking legiyam.</li>
+              <h4 className="page-section section-subheading">First 28 days Diet Chart</h4>
+              <PNDietChart/>
               </ul>
+              <h4 className="page-section section-subheading">After 28 days diet</h4>
               <ul>
                   <li>After 28 days of delivery,for three days Kadugu legiyam should be consumed.
                   If taken,the next day morning, ginger must be taken compulsory.Water should be taken only 1/2 after taking legiyam</li>
+                  
                   <li>After 35 days of delivery, Vendhaya Kazhi should be consumed once in 2 weeks as long as you breastfeed.
                   If taken,the next day morning, ginger must be taken compulsory.Water should be taken only 1/2 after taking legiyam</li>
               </ul>

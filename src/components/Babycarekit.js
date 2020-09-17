@@ -56,7 +56,7 @@ function Babycarekit() {
               <h5>1. Urai maathirai</h5>
               Urai maathirai is a siddha medicine that boosts up the immune system of the baby. Children who took
               this stay free from health issues like respiratory infections, gas trouble, common cold and cough.
-              A pinch of it is advised to be given for babies after bath.
+              A pinch of it is advised to be mixed with breastmilk and given for babies on days after head bath.
               <br></br> 
               <div className="text-center">
              
@@ -65,7 +65,8 @@ function Babycarekit() {
               <h5>2.Ash of vasambu</h5>
              Vasambu, the traditional name for it is "Pillai valarppaan".This is given for babies to boost immunity,
              improve digestion,relieve constipation and prevents colic in babies.This is important for the healthy growth
-             of the baby..
+             of the baby. A pinch of it is advised to be mixed with breastmilk and given for babies after bath except on days 
+             after head bath
                     <br></br>  <div className="text-center">
              
               </div> <br></br>
@@ -85,19 +86,20 @@ function Babycarekit() {
                <br></br>
               <h5>5. Jaathikkai</h5>              
               Jaathikai prevents stomach-upset in babies. It prevents colic in babies and a pinch of it will stop 
-              diarrhoea for babies.
+              diarrhoea for babies. A pinch of it is advised to be mixed with breastmilk and given for babies.
               <br></br>  <div className="text-center">
              
               </div><br></br>
               <h5>6. Maasikkai</h5>
-              Maasikaai helps to regulate the urine output.It also improves the digestion in babies.<br></br> 
+              Maasikaai helps to regulate the urine output.It also improves the digestion in babies. A pinch of it is advised to be mixed with breastmilk and given for babies
+              if babies have colic or diarrhoea<br></br> 
               <div className="text-center">
              
               </div>
                <br></br>
               <h5>7. Ucchi Podi</h5>
-               Ucchi podi/Rasnadi chooranam is applied on baby's crown after head bath. It absorbs all the moisture
-               and prevents headache,cold and cough for babies<br></br> 
+               A pinch of Ucchi podi/Rasnadi chooranam should be applied on baby's crown after head bath. It absorbs all the moisture
+               and prevents headache,cold and cough for babies.<br></br> 
                <div className="text-center">
              
               </div> <br></br>

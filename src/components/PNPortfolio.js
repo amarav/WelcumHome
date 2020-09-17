@@ -87,7 +87,6 @@ const Example = (props) => {
               <Card>
                 <CardBody className="text-left">
                   <ul>
-                    <li>First 3 day diet</li>
                     <li>First 28 days diet</li>
                     <li>Foods to avoid</li>
                     <li>First 28 days Diet Chart</li>
