@@ -766,7 +766,85 @@ function IngredientsKuzhambuPodi()
   );
  }
 
+ 
+function HerbalTeaIng()
+{
+  return (
+    <div>
+     
+              
+    <Table size="sm">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Ingredient</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Adhimathuram</td>
+          <td>10%</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Sitharathai</td>
+          <td>10%</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Nelli vattral</td>
+          <td>10%</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Dried Ginger</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Thippili</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Pepper</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Aavaaram poo</td>
+          <td>10%</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Tulsi</td>
+          <td>10%</td>
+        </tr>        
+        <tr>
+          <th scope="row">8</th>
+          <td>Arugam pul</td>
+          <td>10%</td>
+        </tr>                
+        <tr>
+          <th scope="row">9</th>
+          <td>Tea(Green)</td>
+          <td>15%</td>
+        </tr>                
+        <tr>
+          <th scope="row">10</th>
+          <td>Vasambu</td>
+          <td>10%</td>
+        </tr>
+      </tbody>
+    </Table>
+    </div>
+   
+  );
+ }
+
 export default IngredientsKuzhambuPodi;
 export {ThreeDayMarundhu,PoonduLegiyam,PrasavaLegiyam,VendayaKazhi,KaruveppilaiPodi,AfterBath,
   SittramuttiThailam,ParuppuPodi,MilaguPodiKuzhambu,Pugai,AvoidFoods,HerbalBath,AfterBathBaby,
-  PoonduKuzhambu,PathiyaRasam,DhristiSapadu,KuzhiyalPodi,RubiAmla,PalaThailam,SukkuLegiyam};
+  PoonduKuzhambu,PathiyaRasam,DhristiSapadu,KuzhiyalPodi,RubiAmla,PalaThailam,SukkuLegiyam,HerbalTeaIng};

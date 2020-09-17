@@ -23,9 +23,8 @@ function BuyNow(){
                                   <li>Dried ginger legiyam</li>
                                   <li>Mustard legiyam</li>                                  
                                   <li>Prasava legiyam</li>
-                                  <li>Milagu Podi</li>
-                                  <li>Vendhaya Kazhi Podi</li>
-                                  <li>Marundhu kuzhambu Podi</li>
+                                  <li>Marundhu kuzhambu Podi</li>                                                                      
+                                  <li>Herbal bath powder for mother</li> 
                               </ul>
                           </p>
                         </div>
@@ -41,12 +40,13 @@ function BuyNow(){
                           <p className="card-text">
                             <ul>
                                 <li>Urai maathirai</li>
-                                <li>Vasambu sutta saambal</li>                                
-                                <li>Vasambu for hands</li>
+                                <li>Ash of Vasambu</li>                                
+                                <li>Vasambu bangle</li>
                                 <li>Karuvelangai pottu</li>
                                 <li>Jaathikkai</li>
                                 <li>Maasikkai</li>
-                                <li>Ucchi Podi</li>
+                                <li>Ucchi Podi</li>                                                                       
+                                <li>Herbal bath powder for baby</li>
                             </ul>  
                             </p>
                            </div>
@@ -54,26 +54,26 @@ function BuyNow(){
                         <Link to='/Babycarekit'  className="btn btn-success">Find Out More!</Link>
                         </div>
                       </div>
-                    </div>
+                    </div>                    
                     <div className="col-md-4 mb-5">
                       <div className="card h-100">
-                        <img className="card-img-top" src={require("../assets/img/kit/topupkit.jpg")} alt=""/>
+                        <img className="card-img-top" src="/assets/img/kit/herbaltea.jpg" alt=""/>
                         <div className="card-body">
-                          <h4 className="card-title">Top up kit</h4>
+                          <h4 className="card-title">Herbal Tea</h4>
                           <p className="card-text">
-                              <ul>                         
-                                <li>Coconut milk oil</li> 
-                                <li>Prasava bath powder</li>                                        
-                                <li>Herbal bath powder for mother</li>        
-                                <li>Herbal bath powder for boy baby</li>                                        
-                                <li>Herbal bath powder for girl baby</li>
-                                <li>Herbal hair oil for mother</li>
-                                <li>Herbal Tea</li>
-                              </ul>
+                          <ul>
+                        <li>Boost immunity</li>
+                        <li>Improve digestion</li>
+                        <li>Promotes appetite</li>
+                        <li>Helps detoxification</li>
+                        <li>Weight loss</li>
+                        <li>Reduce inflammation</li>                        
+                        <li>Relieve stress</li>
+                      </ul>
                           </p>
                         </div>
                         <div className="card-footer">
-                          <a href="#contact" className="btn btn-success ">Find Out More!</a>
+                          <Link to="/HerbalTea" className="btn btn-success ">Find Out More!</Link>
                         </div>
                       </div>
                     </div>

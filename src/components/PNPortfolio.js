@@ -127,6 +127,9 @@ const Example = (props) => {
             <Collapse isOpen={card6collapse}>
               <Card>
                 <CardBody className="text-left">
+                <ul>
+                    <li>How to take care of your baby</li>
+                    </ul>
                   <Link to="/Babycarekit" className="text-center">
                     {" "}
                     <Button

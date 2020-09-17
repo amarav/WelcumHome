@@ -38,8 +38,8 @@ function Babycarekit() {
                           <p className="card-text">
                             <ul>
                                 <li>Urai maathirai</li>
-                                <li>Vasambu sutta saambal</li>                                
-                                <li>Vasambu for hands</li>
+                                <li>Ash of Vasambu</li>                                
+                                <li>Vasambu bangles</li>
                                 <li>Karuvelangai pottu</li>
                                 <li>Jaathikkai</li>
                                 <li>Maasikkai</li>
@@ -62,14 +62,14 @@ function Babycarekit() {
              
               </div>
             <br></br>
-              <h5>2.Vasambu sutta saambal</h5>
+              <h5>2.Ash of vasambu</h5>
              Vasambu, the traditional name for it is "Pillai valarppaan".This is given for babies to boost immunity,
              improve digestion,relieve constipation and prevents colic in babies.This is important for the healthy growth
              of the baby..
                     <br></br>  <div className="text-center">
              
               </div> <br></br>
-              <h5>3. Vasambu for hands </h5>              
+              <h5>3. Vasambu bangles </h5>              
               Vasambu is tied in hands of the baby once the baby is born. Even the smell of it reduces the baby spitting up.
               Babies bite it since its in their hands and its said even small amounts of it helps baby grow up healthy.
                <br></br>   <div className="text-center">

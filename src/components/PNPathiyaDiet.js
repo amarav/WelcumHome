@@ -51,6 +51,7 @@ function PNPathiyaDiet() {
               </ul>
               <h4 className="page-section section-subheading">What to avoid for first 28 days</h4>
               Following foods should be avoided only during the first month as mothers digestive system and immune system
+              needs time to get back to normal.
               <br></br>
               <br></br>
               <AvoidFoods/>

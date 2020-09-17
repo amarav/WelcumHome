@@ -79,7 +79,7 @@ function PNLegiyam() {
               the legiyam consistency
               <SukkuLegiyam/>
               
-              <h4 className="page-section section-subheading">Kuzhambu podi</h4>
+              <h4 className="page-section section-subheading">Marundhu Kuzhambu podi</h4>
               This podi needs to be used for preparing kuzhambu for mother for the first 28 days after delivery.
               The following are the ingredients used and grinded.
               <IngredientsKuzhambuPodi />

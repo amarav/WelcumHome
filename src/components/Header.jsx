@@ -104,7 +104,7 @@ class Header extends Component {
                         <DropdownItem tag="a" href="/blah" active>
                           Pregnancy
                         </DropdownItem>                        
-                        <DropdownItem tag="a" href="/blah" active>
+                        <DropdownItem tag="a" href="/Babycarekit" active>
                           Baby care
                         </DropdownItem>
                       </DropdownMenu>
@@ -125,9 +125,6 @@ class Header extends Component {
                         </DropdownItem>
                         <DropdownItem tag="a" href="/buynow" active>
                           Herbal Tea
-                        </DropdownItem>
-                        <DropdownItem tag="a" href="/buynow" active>
-                          Herbal bath powder
                         </DropdownItem>
                       </DropdownMenu>
                     </UncontrolledDropdown>

@@ -12,12 +12,14 @@ import ContactUs from './contactUs'
 import Footer from './Footer'
 import BootstrapCarousel from './Carousel'
 import Lactation from './lactation'
+import LactationBooster from './lactationbooster'
 import PostNatalCare from './PostNatalCare'
 import PNLegiyam from './PNLegiyam'
 import PNPathiyaDiet from './PNPathiyaDiet'
 import PNMarundhuPodi from './PNMarundhuPodi'
 import PNPathiyaSapadu from './PNPathiyaSapadu'
 import PNWhytocare from './PNWhytocare'
+import HerbalTea from './HerbalTea'
 import BlogPostContent from './BlogPostContent'
 import PNBath from './PNBath'
 import PNDhristi from './PNDhristi'
@@ -76,7 +78,7 @@ class Main extends Component
 
   const LactationFoods = () => {
     return(
-      <Lactation topfoods={this.props.topfoods} titleTop="Top foods" sourceTop = {topfoodsrc} 
+      <LactationBooster topfoods={this.props.topfoods} titleTop="Top foods" sourceTop = {topfoodsrc} 
         instantfoods = {this.props.instantfoods} titleInstant ="Instant foods" sourceInstant = {instantmilksrc}
         mustIncfoods = {this.props.mustIncfoods}  titleMust ="Must include foods" sourceMust = {mustincsrc}
         goodfoods = {this.props.goodfoods} titleGood = "Foods for good health" sourceGood ={goodfoodsrc} 
@@ -113,7 +115,8 @@ class Main extends Component
         <Header />        
         <Switch>
             <Route path='/home' component={HomePage} />              
-            <Route exact path='/Lactation' component={LactationFoods} />                        
+            <Route exact path='/Lactation' component={Lactation} />                  
+            <Route exact path='/LactationBooster' component={LactationFoods} />                       
             <Route exact path='/LactationDietChart' component={DietChart} />                       
             <Route exact path='/PostNatalCare' component={PostNatalCare} />                                   
             <Route exact path='/PNLegiyam' component={PNLegiyam} />                                    
@@ -126,7 +129,8 @@ class Main extends Component
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/Homeremedies' component={Homeremedies} />             
-            <Route exact path='/Babycarekit' component={Babycarekit} />              
+            <Route exact path='/Babycarekit' component={Babycarekit} />             
+            <Route exact path='/HerbalTea' component={HerbalTea} />                
             <Route exact path='/blog' component={blog} />    
             <Route path='/blog/:number' component={BlogPostwithID}/>                           
             <Route exact path='/contact' component={ContactUs} />

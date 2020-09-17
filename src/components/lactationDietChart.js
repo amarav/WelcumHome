@@ -55,8 +55,8 @@ const DietChart = (props) => {
       <tbody>
         <tr>
           <td>6:30 am</td>
-          <td>2 glasses of milk with Lactare granules</td>
-          <td>2 glasses of milk with Lactare granules</td>
+          <td>2 glasses of milk with Lactare granules/Herbal Tea</td>
+          <td>2 glasses of milk with Lactare granules/Herbal Tea</td>
           <td>Main ingredient in this is Shatavari which greatly enhances milk secretion</td>
         </tr>
         <tr>

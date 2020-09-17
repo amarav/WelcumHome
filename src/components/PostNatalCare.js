@@ -114,8 +114,6 @@ function PostNatalCare() {
                         <li>Dried ginger legiyam</li>
                         <li>Mustard legiyam</li>
                         <li>Prasava legiyam</li>
-                        <li>Milagu Podi</li>
-                        <li>Vendhaya Kazhi Podi</li>
                         <li>Marundhu kuzhambu Podi</li>
                       </ul>
                     </p>
@@ -136,16 +134,16 @@ function PostNatalCare() {
                     style={{ backgroundColor: "#fec503", borderColor: "#333" }}
                   >
                     <h4 className="card-title">Herbal Tea</h4>
-                    <br/>
+                    <h6 className="text-italic text-center">Benefits</h6>
                     <p className="card-text text-left">
                       <ul>
-                        <li>Garlic legiyam</li>
-                        <li>Dried ginger legiyam</li>
-                        <li>Mustard legiyam</li>
-                        <li>Prasava legiyam</li>
-                        <li>Milagu Podi</li>
-                        <li>Vendhaya Kazhi Podi</li>
-                        <li>Marundhu kuzhambu Podi</li>
+                        <li>Boost immunity</li>
+                        <li>Improve digestion</li>
+                        <li>Promotes appetite</li>
+                        <li>Helps detoxification</li>
+                        <li>Weight loss</li>
+                        <li>Reduce inflammation</li>                        
+                        <li>Relieve stress</li>
                       </ul>
                     </p>
                   </div>
@@ -191,12 +189,12 @@ function PostNatalCare() {
                   </div>
                 </Link>
                 
-                <Link to={`/blog/3`}>
+                <Link to={`/blog/5`}>
                   <div class="mysmcard">
                     <div className="mysmcard-image">
                       <img
                         class="mx-auto rounded-circle mysmcard-image"
-                        src="../assets/img/blog/whytocare.jpg"
+                        src="../assets/img/blog/milksecrete.jpg"
                         alt=""
                       />
                     </div>
@@ -211,49 +209,7 @@ function PostNatalCare() {
             </Row>
           </div>
 
-          <div className="col-md-4 offset-md-2">
-            <section className="page-section bg-light">
-              <div className="container-fluid">
-                <div className="text-center">
-                  <h3 className="section-heading text-uppercase">
-                    Post-natal diet
-                  </h3>
-                  <h3 className="section-subheading text-muted">
-                    The complete postpartum care
-                  </h3>
-
-                  <div className="col-md-8 offset-md-2 text-left">
-                    <h4 className="page-section section-subheading">
-                      Rubi Amla
-                    </h4>
-                    The below ingredients
-                    <RubiAmla />
-                    <h4 className="page-section section-subheading">
-                      Palaa Thailam
-                    </h4>
-                    <PalaThailam />
-                    <h4 className="page-section section-subheading">
-                      Sitraamutti Thailam
-                    </h4>
-                    <SittramuttiThailam />
-                    <div className="col-md-8  offset-md-2  text-left">
-                      <br />
-                      <br />
-                      <h5>DISCLAIMER</h5>
-                      All these information are based on the traditions followed
-                      in our family and are no way responsible for illness or
-                      harm caused to you or your baby.Always seek advice from
-                      doctor,siddha doctor,lactation consultant and
-                      pediatrician. This is followed for normal labour only and
-                      for c section mothers it is advised to take only after
-                      surgical wounds are healed. Please consult to siddha
-                      doctor before taking any of these.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
+        
         </div>
       </div>
     </div>
