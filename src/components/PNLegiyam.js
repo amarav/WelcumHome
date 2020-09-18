@@ -38,10 +38,7 @@ function PNLegiyam() {
                 className="page-section section-subheading"
               >
                 Mustard Legiyam
-              </h4>
-              This legiyam should be taken for the first 3 days after delivery.This helps to clean the uterus. After
-              taking the marundhu, water should not be taken for half an hour,
-              otherwise it may lead to stomach upset.The preparation is as follows.
+              </h4>The preparation is as follows.
               The following ingredients need to be grinded. 
               <br />
               <br />
@@ -49,8 +46,6 @@ function PNLegiyam() {
               <h4 className="page-section section-subheading">
                 Garlic Legiyam
               </h4>
-              This should be taken for the first 3 days after delivery. This helps to clean the uterus. After taking the marundhu, water should not be
-              taken for half an hour, otherwise it may lead to stomach upset.The preparation and ingredients is as follows.
               In Ginger juice extract, garlic pods should be boiled.Once
               boiled,karupatti should be mixed with it along with ghee.
               <br />
@@ -60,8 +55,6 @@ function PNLegiyam() {
                 Prasava Legiyam
               </h4>
               <PrasavaLegiyam />
-              Everyday after dinner this 10gms of this legiyam should be consumed at
-              night. Water should not be taken for 1/2 hour after taking legiyam.
               All the above ingredients need to be dry fried and grinded finely
               to prepare the marundhu podi.In ginger juice extract,cashews
               should be boiled and then the skin and seeds should be
@@ -79,10 +72,7 @@ function PNLegiyam() {
               the legiyam consistency
               <SukkuLegiyam/>
               
-              <h4 className="page-section section-subheading">Marundhu Kuzhambu podi</h4>
-              This podi needs to be used for preparing kuzhambu for mother for the first 28 days after delivery.
-              The following are the ingredients used and grinded.
-              <IngredientsKuzhambuPodi />
+            
               <div className="col-md-8  offset-md-2  text-left">
                 <br />
                 <br />

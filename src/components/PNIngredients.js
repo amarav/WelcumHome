@@ -2,6 +2,33 @@ import React from 'react';
 import { Table,Breadcrumb, BreadcrumbItem, } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
+
+function monthsix()
+{
+    return(<div>
+   
+        <Table size="sm">
+      <thead>
+            <tr>
+              <th>#</th>
+              <th>Ingredient</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr><th scope="row">1</th>
+              <td>Murungai keerai</td><td>1 handful</td> </tr>
+          <tr><th scope="row">2</th>
+              <td>Garlic</td> <td>4 cloves</td></tr>
+          <tr><th scope="row">3</th>
+              <td>Cumin seeds</td><td>1 tbsp</td> </tr>
+          <tr><th scope="row">4</th>
+              <td>Vasambu</td><td>1 small piece</td></tr>
+          <tr><th scope="row">5</th>
+              <td>Salt</td> <td>Required</td></tr>
+              </tbody></Table></div>);
+}
+
 function RubiAmla()
 {
   return(
@@ -33,19 +60,20 @@ function AfterBathBaby()
             <tr>
               <th>#</th>
               <th>Ingredient</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
           <tr><th scope="row">1</th>
-              <td>Neem</td> </tr>
+              <td>Neem</td> <td>1 twig</td></tr>
               <tr><th scope="row">2</th>
-              <td>Sand</td> </tr>
+              <td>Sand</td> <td>1 handful</td></tr>
               <tr><th scope="row">3</th>
-              <td>Karikottai</td> </tr>
-              <tr><th scope="row">3</th>
-              <td>Paruthikottai</td> </tr>
-              <tr><th scope="row">3</th>
-              <td>Red chilly</td> </tr>
+              <td>Charcoal</td><td>1 piece</td> </tr>
+              <tr><th scope="row">4</th>
+              <td>Paruthikottai</td><td>5gm</td></tr>
+              <tr><th scope="row">5</th>
+              <td>Red chilly</td> <td>2 nos</td></tr>
               </tbody>
             </Table>
         </div>);
@@ -60,15 +88,16 @@ function AfterBath()
             <tr>
               <th>#</th>
               <th>Ingredient</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
           <tr><th scope="row">1</th>
-              <td>Ginger</td> </tr>
+              <td>Ginger</td><td>5gm</td> </tr>
               <tr><th scope="row">2</th>
-              <td>Turmeric</td> </tr>
+              <td>Turmeric</td><td>5gm</td>  </tr>
               <tr><th scope="row">3</th>
-              <td>Marungapattai</td> </tr>
+              <td>Murungapattai</td><td>5gm</td>  </tr>
               </tbody>
             </Table>
         </div>);
@@ -83,27 +112,28 @@ function HerbalBath()
             <tr>
               <th>#</th>
               <th>Ingredient</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
           <tr><th scope="row">1</th>
-              <td>Veppampattai</td> </tr>
+              <td>Veppampattai</td> <td>10gm</td></tr>
               <tr><th scope="row">2</th>
-              <td>Poovarasampattai</td> </tr>
+              <td>Poovarasampattai</td><td>10gm</td> </tr>
               <tr><th scope="row">3</th>
-              <td>Nalla milagu kodi</td> </tr>
+              <td>Nalla milagu kodi</td><td>10gm</td> </tr>
              
               <tr><th scope="row">4</th>
-              <td>Kansirattai</td> </tr>
+              <td>Kansirattai</td><td>1 no</td> </tr>
              
               <tr><th scope="row">5</th>
-              <td>Manjal kilangu</td> </tr>
+              <td>Manjal kilangu</td><td>1 no</td> </tr>
              
               <tr><th scope="row">6</th>
-              <td>Irumbu thundu</td> </tr>
+              <td>Irumbu thundu</td><td>1 no</td> </tr>
              
               <tr><th scope="row">7</th>
-              <td>Nalla milagu</td> </tr>
+              <td>Pepper</td> <td>10gm</td></tr>
               </tbody>
             </Table>
         </div>);
@@ -161,19 +191,20 @@ function DhristiSapadu()
             <tr>
               <th>#</th>
               <th>Ingredient</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
           <tr><th scope="row">1</th>
-              <td>Arai keerai</td> </tr>
+              <td>Arai keerai</td><td>Few</td> </tr>
           <tr><th scope="row">2</th>
-              <td>Turmeric</td> </tr>
+              <td>Turmeric</td> <td>1 tbsp</td></tr>
           <tr><th scope="row">3</th>
-              <td>Curry leaves</td> </tr>
+              <td>Curry leaves</td><td>Few</td> </tr>
           <tr><th scope="row">4</th>
-              <td>Pepper</td> </tr>
+              <td>Pepper</td><td>1 tbsp</td></tr>
           <tr><th scope="row">5</th>
-              <td>Salt</td> </tr>
+              <td>Salt</td> <td>Required</td></tr>
               </tbody></Table></div>
     );
 }
@@ -286,19 +317,20 @@ function Pugai()
             <tr>
               <th>#</th>
               <th>Ingredient</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
           <tr><th scope="row">1</th>
-              <td>Cup Sambrani</td> </tr>
+              <td>Cup Sambrani</td><td>1 no</td></tr>
           <tr><th scope="row">2</th>
-              <td>Turmeric</td> </tr>
+              <td>Turmeric</td><td>1/4 tsp</td> </tr>
           <tr><th scope="row">3</th>
-              <td>Oregano/Omam</td> </tr>
+              <td>Oregano/Omam</td><td>1 tsp</td> </tr>
           <tr><th scope="row">4</th>
-              <td>Neem leaf</td> </tr>
+              <td>Neem leaf</td><td>5 nos</td> </tr>
           <tr><th scope="row">5</th>
-              <td>Garlic outer skin</td> </tr>
+              <td>Garlic outer skin</td> <td>1/2 handful</td></tr>
               </tbody></Table></div>
     );
 }
@@ -313,19 +345,20 @@ function PathiyaRasam()
             <tr>
               <th>#</th>
               <th>Ingredient</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
           <tr><th scope="row">1</th>
-              <td>Garlic</td> </tr>
+              <td>Garlic</td><td>5 cloves</td> </tr>
               <tr><th scope="row">2</th>
-              <td>Red chilly</td> </tr>
+              <td>Red chilly</td><td>1 no</td> </tr>
               <tr><th scope="row">3</th>
-              <td>Pepper</td> </tr>
+              <td>Pepper</td><td>1tsp</td> </tr>
               <tr><th scope="row">4</th>
-              <td>Oregano</td> </tr>
+              <td>Oregano</td><td>1 tsp</td> </tr>
               <tr><th scope="row">5</th>
-              <td>Cumin seeds</td> </tr>
+              <td>Cumin seeds</td><td>1 tsp</td> </tr>
               </tbody>
             </Table>
         </div>);
@@ -340,21 +373,21 @@ function PoonduKuzhambu()
             <tr>
               <th>#</th>
               <th>Ingredient</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
           <tr><th scope="row">1</th>
-              <td>Garlic</td> </tr>
+              <td>Garlic</td> <td>20 cloves</td></tr>
               <tr><th scope="row">2</th>
-              <td>Red chilly</td> </tr>
+              <td>Red chilly</td><td>Quantity sufficient</td> </tr>
               <tr><th scope="row">3</th>
-              <td>Pepper</td> </tr>
+              <td>Pepper</td> <td>1/4kg</td></tr>
               <tr><th scope="row">4</th>
-              <td>Modi kattai</td> </tr>
+              <td>Modi kattai</td><td>1/4kg</td> </tr>
               <tr><th scope="row">5</th>
-              <td>Arisi</td> </tr>
-              <tr><th scope="row">6</th>
-              <td>Thippili</td> </tr>
+              <td>Arisi thippili</td> <td>1/4kg</td></tr>
+              <tr><th scope="row">6</th><td>1/4kg</td></tr>
               </tbody></Table>
         </div>);
 }
@@ -368,13 +401,16 @@ function KaruveppilaiPodi()
             <tr>
               <th>#</th>
               <th>Ingredient</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
           <tr><th scope="row">1</th>
-              <td>Curry leaves</td> </tr>
+              <td>Curry leaves</td> 
+              <td>Handful</td></tr>
               <tr><th scope="row">2</th>
-              <td>Ghee</td> </tr>
+              <td>Ghee</td> 
+              <td>Quantity sufficient</td></tr>
               </tbody></Table>
         </div>);
     
@@ -389,18 +425,23 @@ function MilaguPodiKuzhambu()
             <tr>
               <th>#</th>
               <th>Ingredient</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
           <tr><th scope="row">1</th>
-              <td>Pepper</td> </tr>
+              <td>Pepper</td> 
+              <td>1 tbsp</td></tr>
               
           <tr><th scope="row">2</th>
-              <td>Cumin seeds</td> </tr>
+              <td>Cumin seeds</td> 
+              <td>1 tbsp</td></tr>
               <tr><th scope="row">3</th>
-              <td>Tomato</td> </tr>
+              <td>Tomato</td> 
+              <td>1 large size</td></tr>
               <tr><th scope="row">4</th>
-              <td>Ghee</td> </tr>
+              <td>Ghee</td>
+              <td>Quantity sufficient</td></tr>
               </tbody></Table>
         </div>);
     
@@ -414,24 +455,59 @@ function ParuppuPodi()
           <thead>
             <tr>
               <th>#</th>
-              <th>Ingredient</th>
+              <th>Ingredient</th>              
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
           <tr><th scope="row">1</th>
-              <td>Toor daal</td> </tr>
+              <td>Toor daal</td>
+              <td>1/4 kg</td> </tr>
               
           <tr><th scope="row">2</th>
-              <td>Pepper</td> </tr>
+              <td>Pepper</td> 
+              <td>10gm</td></tr>
               
           <tr><th scope="row">3</th>
-              <td>Cumin</td> </tr>
+              <td>Cumin</td>
+              <td>10gm</td> </tr>
               
           <tr><th scope="row">4</th>
-              <td>Ghee</td> </tr>
+              <td>Ghee</td>
+              <td>Quantity sufficient</td> </tr>
                         </tbody>
         </Table>
       </div>
+    );
+}
+
+function UlundhuKazhi()
+{
+    return(
+        <div>
+        
+        <Table size="sm">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Ingredient</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+                           
+              <tr><th scope="row">2</th>
+              <td>Raw rice</td><td>1 cup</td> </tr>
+              
+              <tr><th scope="row">3</th>
+              <td>Urad daal</td> <td>1/4 cup</td></tr>
+              
+              <tr><th scope="row">4</th>
+              <td>Karupatti</td> <td>Quantity sufficient</td></tr>
+              <tr><th scope="row">5</th>
+              <td>Ghee</td> <td>Quantity sufficient</td></tr>
+              </tbody></Table>
+              </div>
     );
 }
 
@@ -439,27 +515,29 @@ function VendayaKazhi()
 {
     return(
         <div>
+
         <Table size="sm">
           <thead>
             <tr>
               <th>#</th>
               <th>Ingredient</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
               <tr><th scope="row">1</th>
-              <td>Fenugreek</td> </tr>
+              <td>Fenugreek</td><td>1 tsp</td> </tr>
               
               <tr><th scope="row">2</th>
-              <td>Raw rice</td> </tr>
+              <td>Raw rice</td><td>1/4 cup</td> </tr>
               
               <tr><th scope="row">3</th>
-              <td>Urad daal</td> </tr>
+              <td>Urad daal</td> <td>2 tbsp</td></tr>
               
               <tr><th scope="row">4</th>
-              <td>Karupatti</td> </tr>
+              <td>Karupatti</td> <td>1/4 cup</td></tr>
               <tr><th scope="row">5</th>
-              <td>Ghee</td> </tr>
+              <td>Ghee</td> <td>Quantity sufficient</td></tr>
               </tbody></Table>
               </div>
     );
@@ -473,77 +551,108 @@ function PrasavaLegiyam()
           <thead>
             <tr>
               <th>#</th>
-              <th>Ingredient</th>
+              <th>Ingredient</th>              
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>
               <tr><th scope="row">1</th>
-              <td>Turmeric</td> </tr>             
-              
+              <td>Turmeric</td>
+              <td>10gm</td> </tr>   
               <tr><th scope="row">2</th>
-              <td>Dried ginger</td> </tr>                           
+              <td>Dried ginger</td> 
+              <td>10gm</td></tr>                           
               <tr><th scope="row">3</th>
-              <td>Pepper</td> </tr>             
+              <td>Pepper</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">4</th>
-              <td>Thippili</td> </tr>             
+              <td>Thippili</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">5</th>
-              <td>Oregano/Omam</td> </tr>             
+              <td>Oregano/Omam</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">6</th>
-              <td>Vilva ver</td> </tr>             
+              <td>Vilva ver</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">7</th>
-              <td>Jeera/Cumin</td> </tr>             
+              <td>Jeera/Cumin</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">8</th>
-              <td>Fennel seeds</td> </tr>             
+              <td>Fennel seeds</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">9</th>
-              <td>Poppy seeds</td> </tr>             
+              <td>Poppy seeds</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">10</th>
-              <td>Parpada pul</td> </tr>             
+              <td>Parpada pul</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">11</th>
-              <td>Vaivilangam</td> </tr>             
+              <td>Vaivilangam</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">12</th>
-              <td>Thaalisa patthiri</td> </tr>             
+              <td>Thaalisa patthiri</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">13</th>
-              <td>adhividayam</td> </tr>             
+              <td>adhividayam</td> 
+              <td>2gm</td></tr>             
               <tr><th scope="row">14</th>
-              <td>Agrakaasuram</td> </tr>             
+              <td>Agrakaasuram</td> 
+              <td>2gm</td></tr>             
               <tr><th scope="row">15</th>
-              <td>Sitharathai</td> </tr>             
+              <td>Sitharathai</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">16</th>
-              <td>Adhimathuram</td> </tr>             
+              <td>Adhimathuram</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">17</th>
-              <td>Kadukkai</td> </tr>             
+              <td>Kadukkai</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">18</th>
-              <td>Nellikkai</td> </tr>             
+              <td>Nellikkai</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">19</th>
-              <td>Thaandrikkai</td> </tr>             
+              <td>Thaandrikkai</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">20</th>
-              <td>Lavangapattai</td> </tr>             
+              <td>Lavangapattai</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">21</th>
-              <td>Parangipattai</td> </tr>             
+              <td>Parangipattai</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">22</th>
-              <td>Karunjeeragam</td> </tr>             
+              <td>Karunjeeragam</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">23</th>
-              <td>Jaathipathiri</td> </tr>             
+              <td>Jaathipathiri</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">24</th>
-              <td>Amukkura ver</td> </tr>             
+              <td>Amukkura ver</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">25</th>
-              <td>Vaal milagu</td> </tr>             
+              <td>Vaal milagu</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">26</th>
-              <td>Narukku moolam</td> </tr>             
+              <td>Narukku moolam</td> 
+              <td>10gm</td></tr>             
               <tr><th scope="row">27</th>
-              <td>Sadhakuppai</td> </tr>  
+              <td>Sadhakuppai</td> 
+              <td>10gm</td></tr>  
                             
               <tr><th scope="row">28</th>
-              <td>Kraambu</td> </tr>  
+              <td>Kraambu</td> 
+              <td>10gm</td></tr>  
                             
               <tr><th scope="row">29</th>
-              <td>Ginger</td> </tr>  
+              <td>Ginger</td> 
+              <td>10gm</td></tr>  
                             
               <tr><th scope="row">30</th>
-              <td>Cashew nuts</td> </tr>  
+              <td>Cashew nuts</td> 
+              <td>10gm</td></tr>  
                             
               <tr><th scope="row">31</th>
-              <td>Palaya karupatti</td> </tr>  
+              <td>Palaya karupatti</td> 
+              <td>10gm</td></tr>  
           </tbody>
         </Table>
       </div>
@@ -601,7 +710,7 @@ function SukkuLegiyam()
           <tr>
             <th scope="row">1</th>
             <td>Dried ginger</td>
-            <td></td>
+            <td>50gm</td>
           </tr> 
           <tr>
             <th scope="row">2</th>
@@ -611,7 +720,7 @@ function SukkuLegiyam()
           <tr>
             <th scope="row">3</th>
             <td>Ghee</td>
-            <td></td>
+            <td>Quantity sufficient</td>
           </tr> 
           </tbody>
           </Table>
@@ -641,6 +750,10 @@ function ThreeDayMarundhu()
             <th scope="row">2</th>
             <td>Palm jaggery/Karupatti</td>
             <td>1/4 kg</td>
+          </tr> <tr>
+            <th scope="row">3</th>
+            <td>Ghee</td>
+            <td>Quantity sufficient</td>
           </tr>
       </tbody>
       </Table>
@@ -662,40 +775,36 @@ function KuzhiyalPodi()
           </tr>
         </thead>
         <tbody>
+                    
+                  
           <tr>
             <th scope="row">1</th>
-            <td>Oil</td>
-            <td></td>
+            <td>Kasthuri manjal</td>
+            <td>500gm</td>
           </tr>          
           <tr>
             <th scope="row">2</th>
-            <td>Turmeric</td>
-            <td></td>
+            <td>Poolankelangu</td>
+            <td>500gm</td>
           </tr>          
           <tr>
             <th scope="row">3</th>
-            <td>Turmeric</td>
-            <td></td>
+            <td>Karboga Arisi</td>
+            <td>500gm</td>
           </tr>          
           <tr>
             <th scope="row">4</th>
-            <td>Red chilly</td>
-            <td></td>
-          </tr>          
-          <tr>
-            <th scope="row">5</th>
-            <td>Arisi</td>
-            <td></td>
-          </tr>          
-          <tr>
-            <th scope="row">6</th>
-            <td>Sambrani</td>
-            <td></td>
+            <td>Vettiver</td>
+            <td>500gm</td>
           </tr>                   
           <tr>
-            <th scope="row">7</th>
-            <td>Oregano</td>
-            <td></td>
+            <th scope="row">5</th>
+            <td>Rose petals</td>
+            <td>500gm</td>
+          </tr><tr>
+            <th scope="row">6</th>
+            <td>Green gram</td>
+            <td>1 kg</td>
           </tr>
       </tbody>
       </Table>
@@ -847,4 +956,4 @@ function HerbalTeaIng()
 export default IngredientsKuzhambuPodi;
 export {ThreeDayMarundhu,PoonduLegiyam,PrasavaLegiyam,VendayaKazhi,KaruveppilaiPodi,AfterBath,
   SittramuttiThailam,ParuppuPodi,MilaguPodiKuzhambu,Pugai,AvoidFoods,HerbalBath,AfterBathBaby,
-  PoonduKuzhambu,PathiyaRasam,DhristiSapadu,KuzhiyalPodi,RubiAmla,PalaThailam,SukkuLegiyam,HerbalTeaIng};
+  PoonduKuzhambu,PathiyaRasam,DhristiSapadu,KuzhiyalPodi,RubiAmla,PalaThailam,SukkuLegiyam,HerbalTeaIng,monthsix};

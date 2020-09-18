@@ -18,12 +18,14 @@ import PNLegiyam from './PNLegiyam'
 import PNPathiyaDiet from './PNPathiyaDiet'
 import PNMarundhuPodi from './PNMarundhuPodi'
 import PNPathiyaSapadu from './PNPathiyaSapadu'
+import PNPostnatalkit from './PNPostnatalkit'
 import PNWhytocare from './PNWhytocare'
 import HerbalTea from './HerbalTea'
 import BlogPostContent from './BlogPostContent'
 import PNBath from './PNBath'
 import PNDhristi from './PNDhristi'
 import blog from './FullBlog'
+import Pregnancy from './Pregnancy'
 import BlogSecretofBriyani from "./BlogSecretofBriyani";
 import Babycarekit from './Babycarekit'
 import Homeremedies from './Homeremedies';
@@ -118,14 +120,16 @@ class Main extends Component
             <Route exact path='/Lactation' component={Lactation} />                  
             <Route exact path='/LactationBooster' component={LactationFoods} />                       
             <Route exact path='/LactationDietChart' component={DietChart} />                       
-            <Route exact path='/PostNatalCare' component={PostNatalCare} />                                   
+            <Route exact path='/PostNatalCare' component={PostNatalCare} />                    
+            <Route exact path='/Pregnancy' component={Pregnancy} />                                      
             <Route exact path='/PNLegiyam' component={PNLegiyam} />                                    
             <Route exact path='/PNPathiyaDiet' component={PNPathiyaDiet} />                                            
             <Route exact path='/PNMarundhuPodi' component={PNMarundhuPodi} />                                           
             <Route exact path='/PNPathiyaSapadu' component={PNPathiyaSapadu} />                                          
             <Route exact path='/PNDhristi' component={PNDhristi} />                                          
-            <Route exact path='/PNKuzhiyal' component={PNBath} />                                                 
-            <Route exact path='/PNWhytocare' component={PNWhytocare} />                    
+            <Route exact path='/PNKuzhiyal' component={PNBath} />   
+            <Route exact path='/PNWhytocare' component={PNWhytocare} /> 
+            <Route exact path='/PNPostnatalkit' component={PNPostnatalkit} />                    
             <Route exact path='/Recipies' component={() => <Recipies dishes={this.props.dishes} />} />
             <Route path='/Recipies/:dishId' component={DishWithId} />
             <Route exact path='/Homeremedies' component={Homeremedies} />             

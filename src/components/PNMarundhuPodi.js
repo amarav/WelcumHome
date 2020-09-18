@@ -29,6 +29,8 @@ function PNMarundhuPodi() {
             <h3 className="section-subheading text-muted">Podi varities</h3>
             <div className="col-md-8 offset-md-2 text-left">
               <h4 className="page-section section-subheading">Kuzhambu podi</h4>
+              The following ingredients should be fried and ground.This podi should be used for Kuzhambu
+              preparation.
               <IngredientsKuzhambuPodi />
               <h4 className="page-section section-subheading">Paruppu Podi</h4>
               Toor dal should be fried until golden brown and grinded along with

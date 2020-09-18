@@ -26,7 +26,7 @@ function PNDhristi() {
           <div className="text-center">
             <h3 className="section-heading text-uppercase">Dhristi kalippu</h3>
             <h3 className="section-subheading text-muted">
-              The bath procedure
+              Dhristi procedure
             </h3>
             <div className="col-md-8 offset-md-2 text-left">
             <h4 className="page-section section-subheading">Aarathi for baby</h4>
@@ -47,7 +47,9 @@ function PNDhristi() {
               should be grabbed from her hands and circled over mothers head for 3 times and given to dog.Important thing
               to note is, crow should not consume this dhristi food.
               <DhristiSapadu/>
-
+              <h4 className="page-section section-subheading">Everday dhristi for baby</h4>
+              Everyday evening its advised to caste away dhristi by using karpooram and lighting
+              it in the doorstep in the evening around 6pm to 7pm.
               <div className="col-md-8  offset-md-2  text-left">
                 <br />
                 <br />

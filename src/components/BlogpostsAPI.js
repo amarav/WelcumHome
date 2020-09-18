@@ -12,8 +12,9 @@ export const BlogPostsAPI = [
       { id: 7, title: "How to take care of your baby?", LastUpdated: "SEP 16,2020", source:"/assets/img/blog/babytc.jpg" ,componentname:"babycarekit"},
       { id: 8, title: "Diet for first 28 days after delivery", LastUpdated: "SEP 16,2020", source:"/assets/img/postnatal/diet.jpg" ,componentname:"pnpathiyadiet"},
       { id: 9, title: "Siddha medicines to take after delivery", LastUpdated: "SEP 16,2020", source:"/assets/img/postnatal/legiyam.jpg" ,componentname:"pnlegiyam"},
-      { id: 10, title: "Top 10 breastfeeding tips", LastUpdated: "SEP 17,2020", source:"/assets/img/blog/babybf.jpg" ,componentname:"blogbftips"},
-      { id: 11, title: "How to prepare for normal delivery?", LastUpdated: "SEP 17,2020", source:"/assets/img/blog/pregnant.jpg" ,componentname:"pregnancy"}
-    
+      { id: 10, title: "Top 10 breastfeeding tips", LastUpdated: "SEP 17,2020", source:"/assets/img/blog/breastfeed.jpg" ,componentname:"blogbftips"},
+      { id: 11, title: "How to prepare for normal delivery?", LastUpdated: "SEP 17,2020", source:"/assets/img/blog/pregnant.jpg" ,componentname:"pregnancy"},
+      { id: 12, title: "The secret of perfect medhu vada", LastUpdated: "SEP 18,2020", source:"/assets/img/blog/pregnant.jpg" ,componentname:"blogSecretofVada"}
+      
 ]
   

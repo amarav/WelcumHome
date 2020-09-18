@@ -10,6 +10,7 @@ import PNLegiyam from './PNLegiyam'
 import PNPathiyadiet from './PNPathiyaDiet'
 import BlogBFtips from './BlogBFtips'
 import Pregnancy from './Pregnancy'
+import BlogSecretofVada from './BlogSecretofVada'
 
 const mapStringtoComponents = {
     blogSecretofBriyani : BlogSecretofBriyani,
@@ -22,6 +23,7 @@ const mapStringtoComponents = {
     pnlegiyam:PNLegiyam,
     blogbftips: BlogBFtips,
     pregnancy:Pregnancy,
+    blogSecretofVada:BlogSecretofVada,
 }
    
 const Post = (props) => {

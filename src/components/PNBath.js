@@ -29,8 +29,8 @@ function PNBath() {
               The bath procedure
             </h3>
             <div className="col-md-8 offset-md-2 text-left">
-            <h4 className="page-section section-subheading">Kuzhiyal Podi</h4> 
-              The below ingredients should be brought to oil stage and then used for bathing by the new mother
+            <h4 className="page-section section-subheading">Kuzhiyal Podi/Herbal Bath powder</h4> 
+              The below ingredients should be finely powdered and used for bathing by the mother
               <KuzhiyalPodi/>
               <h4 className="page-section section-subheading">The 16 day bath procedure</h4> 
               The below ingredients should be well boiled in water the previous night.Again it should be boiled
@@ -45,6 +45,8 @@ function PNBath() {
               The below ingredients should be used for dhristi for baby after bathing
               <AfterBathBaby/>
               <h4 className="page-section section-subheading">Pugai Poduthal</h4>
+              The following ingredients need to be placed in cup sambrani and shown for mother and baby's hair after
+              head bath
               <Pugai/>
              
             

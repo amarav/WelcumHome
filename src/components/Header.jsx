@@ -101,7 +101,7 @@ class Header extends Component {
                         <DropdownItem tag="a" href="/PostNatalCare" active>
                           Post natal care
                         </DropdownItem>
-                        <DropdownItem tag="a" href="/blah" active>
+                        <DropdownItem tag="a" href="/Pregnancy" active>
                           Pregnancy
                         </DropdownItem>                        
                         <DropdownItem tag="a" href="/Babycarekit" active>
@@ -117,7 +117,7 @@ class Header extends Component {
                         Buy Now
                       </DropdownToggle>
                       <DropdownMenu>
-                        <DropdownItem tag="a" href="/buynow" active>
+                        <DropdownItem tag="a" href="/PNPostnatalkit" active>
                           Post natal kit
                         </DropdownItem>
                         <DropdownItem tag="a" href="/Babycarekit" active>

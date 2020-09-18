@@ -44,7 +44,7 @@ function BlogBFtips() {
               <br></br>
               <br />
               <h5>2. Burping</h5>
-              There are times when baby cries during feeding or refuses to feed
+              There are times when baby cries during feeding or cries
               after sucking a few times.It may be because of the air bubble
               thats caught up inside and burping the baby before and after
               feeding works.Some of them are very religious about burping
@@ -56,7 +56,7 @@ function BlogBFtips() {
               Some mothers have fast let-down during the intial weeks after
               delivery and the baby is too small to cope up with the speed. It
               would be difficult for the baby to swallow so much milk and thus
-              causing him to cough during feeding. Holding tight near the
+              causing him to cough or pull away fromm the breast often during feeding. Holding tight near the
               nipples by making a c hold or scissors hold slows down the
               flow.Some mothers prefer to express off the initial milk and then
               feeding.

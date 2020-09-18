@@ -29,7 +29,7 @@ function BuyNow(){
                           </p>
                         </div>
                         <div className="card-footer">
-                        <Link to='/PNLegiyam'  className="btn btn-success">Find Out More!</Link>
+                        <Link to='/PNPostnatalkit'  className="btn btn-success">Find Out More!</Link>
                         </div>
                       </div>
                     </div>
